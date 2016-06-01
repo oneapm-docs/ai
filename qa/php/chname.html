@@ -2,7 +2,7 @@
 <!DOCTYPE HTML>
 <html lang="" >
     <head>
-        <title>开启 debug · GitBook</title>
+        <title>重命名 PHP 应用程序 · GitBook</title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="chname.html" />
+    <link rel="next" href="../net/" />
     
     
-    <link rel="prev" href="qa.html" />
+    <link rel="prev" href="turnbug.html" />
     
 
     </head>
@@ -1259,7 +1259,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="3.3.2.4" data-path="turnbug.html">
+        <li class="chapter " data-level="3.3.2.4" data-path="turnbug.html">
             
                 <a href="turnbug.html">
             
@@ -1272,7 +1272,7 @@
             
         </li>
     
-        <li class="chapter " data-level="3.3.2.5" data-path="chname.html">
+        <li class="chapter active" data-level="3.3.2.5" data-path="chname.html">
             
                 <a href="chname.html">
             
@@ -1441,7 +1441,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="../.." >开启 debug</a>
+        <a href="../.." >重命名 PHP 应用程序</a>
     </h1>
 </div>
 
@@ -1456,37 +1456,21 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="&#x5F00;&#x542F;debug">&#x5F00;&#x542F;debug</h1>
-<p>1&#x3001;&#x5F00;&#x542F; Agent &#x7684; Debug &#x6A21;&#x5F0F;</p>
-<p>a) &#x7F16;&#x8F91; php.ini &#x914D;&#x7F6E;&#x6587;&#x4EF6;&#xFF0C;&#x627E;&#x5230;[oneapm]&#x6A21;&#x5757;&#x914D;&#x7F6E;&#x90E8;&#x5206;&#xFF0C;&#x901A;&#x5E38;&#x5728;&#x6587;&#x4EF6;&#x7684;&#x5C3E;&#x90E8;&#x3002;</p>
-<p>b) &#x53BB;&#x6389; ;oneapm.loglevel=&quot;ERROR&quot; &#x8FD9;&#x4E00;&#x884C;&#x524D;&#x9762;&#x7684;&#x5206;&#x53F7;; &#xFF0C;&#x7136;&#x540E;&#x628A;&#x914D;&#x7F6E;&#x9879;&#x7684;&#x503C;&#x6539;&#x4E3A; DEBUG &#x3002;&#x5982;&#x4E0B;&#x56FE;&#xFF1A;</p>
-<p><img src="https://oneapm.kf5.com/attachments/download/166327/00155af3cea458196892b5c7dbaa4a2" alt=""></p>
-<p>c) &#x91CD;&#x542F; PHP &#x3002;
-2&#x3001;&#x5F00;&#x542F; Daemon &#x7684; Debug &#x6A21;&#x5F0F;</p>
-<p>a) &#x7F16;&#x8F91; /etc/oneapm/oneapm.cfg &#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x3002;</p>
-<p>b) &#x4FEE;&#x6539; loglevel &#x7684;&#x503C;&#x4E3A; debug &#x3002;&#x5982;&#x4E0B;&#x56FE;&#xFF1A;</p>
-<p><img src="https://oneapm.kf5.com/attachments/download/166332/00155af3db97b8d1ddb0b86b851fe0a" alt=""></p>
-<p>c) &#x67E5;&#x770B; daemon &#x7684;&#x72B6;&#x6001;</p>
-<pre><code class="lang-javascript">ps -ef | grep oneapm-daemon
-</code></pre>
-<p><img src="https://oneapm.kf5.com/attachments/download/166333/00155af3dedeab12b99ac79ab4fff88" alt=""></p>
-<p>d) &#x505C;&#x6B62; daemon</p>
-<p>&#x5982;&#x679C;&#x5982;&#x4E0A;&#x56FE;&#x6240;&#x793A;&#xFF0C;&#x8BC1;&#x660E; daemon &#x72B6;&#x6001;&#x6B63;&#x5E38;&#xFF0C;&#x6267;&#x884C;&#x4E0B;&#x9762;&#x7684;&#x6307;&#x4EE4;&#x3002;</p>
-<pre><code class="lang-javascript">
-    sudo /etc/init.d/oneapm-daemon-service stop
-</code></pre>
-<p>&#x5982;&#x679C;&#x4E0A;&#x9762;&#x6307;&#x4EE4;&#x6CA1;&#x6709;&#x751F;&#x6548;&#xFF0C;&#x8BF7;&#x4F7F;&#x7528;&#x4E0B;&#x9762;&#x6307;&#x4EE4;&#x3002;</p>
-<pre><code class="lang-javascript">
-    sudo killall <span class="hljs-number">-9</span> oneapm-daemon
-</code></pre>
-<p>e) &#x518D;&#x6B21;&#x786E;&#x8BA4; daemon &#x72B6;&#x6001;</p>
-<pre><code class="lang-javascript">
-    ps -ef | grep oneapm-daemon
-</code></pre>
-<p>&#x5982;&#x679C;daemon&#x8FDB;&#x7A0B;&#x6CA1;&#x6709;&#x4E86;&#xFF0C;&#x91CD;&#x65B0;&#x542F;&#x52A8;daemon&#x3002;</p>
-<pre><code class="lang-javascript">
-    sudo /usr/bin/oneapm-daemon
-</code></pre>
+                                <h1 id="&#x91CD;&#x547D;&#x540D;php&#x5E94;&#x7528;&#x7A0B;&#x5E8F;">&#x91CD;&#x547D;&#x540D;PHP&#x5E94;&#x7528;&#x7A0B;&#x5E8F;</h1>
+<p>OneAPM &#x901A;&#x8FC7;&#x5224;&#x65AD;&#x8D26;&#x53F7;&#x548C;&#x6BCF;&#x4E2A;&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x7684;&#x552F;&#x4E00;&#x6807;&#x8BC6;&#x7B26;&#x3001;&#x540D;&#x79F0;&#xFF0C;&#x8BC6;&#x522B;&#x4E00;&#x4E2A;&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#xFF0C;&#x8FDB;&#x884C;&#x6027;&#x80FD;&#x6570;&#x636E;&#x6536;&#x96C6;&#x3002;&#x901A;&#x8FC7;&#x57FA;&#x4E8E;&#x5E94;&#x7528;&#x540D;&#x79F0;&#x7684;&#x8FC7;&#x6EE4;&#x673A;&#x5236;&#xFF0C;OneAPM &#x5141;&#x8BB8;&#x76F8;&#x540C;&#x7684;&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x8FD0;&#x884C;&#x5728;&#x591A;&#x4E2A;&#x670D;&#x52A1;&#x5668;&#x4E0A;&#x7684;&#x4F7F;&#x7528;&#x573A;&#x666F;&#x3002;&#x672C;&#x6587;&#x4E3B;&#x8981;&#x7528;&#x4E8E;&#x4ECB;&#x7ECD;&#x5982;&#x4F55;&#x9488;&#x5BF9; PHP &#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x8FDB;&#x884C;&#x91CD;&#x547D;&#x540D;&#x3002;
+&#x5728;&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x4E2D;&#x90E8;&#x7F72; agent &#x540E;&#xFF0C;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x7F16;&#x8F91;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#xFF0C;&#x5BF9;&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x8FDB;&#x884C;&#x91CD;&#x547D;&#x540D;&#x3002;</p>
+<h2 id="&#x91CD;&#x547D;&#x540D;php&#x5E94;&#x7528;&#x7A0B;&#x5E8F;">&#x91CD;&#x547D;&#x540D;PHP&#x5E94;&#x7528;&#x7A0B;&#x5E8F;</h2>
+<ol>
+<li><p>&#x6253;&#x5F00; PHP &#x914D;&#x7F6E;&#x6587;&#x4EF6; php.ini</p>
+</li>
+<li><p>&#x627E;&#x5230; [oneapm]</p>
+</li>
+<li><p>&#x6DFB;&#x52A0;&#x53C2;&#x6570; oneapm.appname=&quot;&#x8981;&#x8BBE;&#x7F6E;&#x7684;&#x5E94;&#x7528;&#x540D;&quot;</p>
+<p><img src="../../images/chname1.png" alt=""></p>
+</li>
+<li><p>&#x91CD;&#x542F; php &#x5E76;&#x91CD;&#x542F; oneapm-daemon &#x8FDB;&#x7A0B;&#x3002;&#x767B;&#x5F55; OneAPM &#xFF0C;&#x5373;&#x53EF;&#x67E5;&#x770B;&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x5DF2;&#x91CD;&#x547D;&#x540D;&#x6210;&#x529F;&#x3002;</p>
+</li>
+</ol>
 
                                 
                                 </section>
@@ -1514,12 +1498,12 @@
 
             
                 
-                <a href="qa.html" class="navigation navigation-prev " aria-label="Previous page: 常见问题">
+                <a href="turnbug.html" class="navigation navigation-prev " aria-label="Previous page: 开启 debug">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="chname.html" class="navigation navigation-next " aria-label="Next page: 重命名 PHP 应用程序">
+                <a href="../net/" class="navigation navigation-next " aria-label="Next page: .NET">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -1530,7 +1514,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"开启 debug","level":"3.3.2.4","depth":3,"next":{"title":"重命名 PHP 应用程序","level":"3.3.2.5","depth":3,"path":"qa/php/chname.md","ref":"qa/php/chname.md","articles":[]},"previous":{"title":"常见问题","level":"3.3.2.3","depth":3,"path":"qa/php/qa.md","ref":"qa/php/qa.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"qa/php/turnbug.md","mtime":"2016-03-18T07:31:00.000Z","type":"markdown"},"gitbook":{"version":"3.0.3","time":"2016-06-01T07:44:42.540Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"重命名 PHP 应用程序","level":"3.3.2.5","depth":3,"next":{"title":".NET","level":"3.3.3","depth":2,"path":"qa/net/README.md","ref":"qa/net/README.md","articles":[{"title":".NET Agent 安装成功，没有数据","level":"3.3.3.1","depth":3,"path":"qa/net/pingAndTelnet.md","ref":"qa/net/pingAndTelnet.md","articles":[]},{"title":".NET Agent 常见故障排查方法","level":"3.3.3.2","depth":3,"path":"qa/net/Investigation.md","ref":"qa/net/Investigation.md","articles":[]},{"title":"业务代码，自定义监控使用说明","level":"3.3.3.3","depth":3,"path":"qa/net/customMonitor.md","ref":"qa/net/customMonitor.md","articles":[]}]},"previous":{"title":"开启 debug","level":"3.3.2.4","depth":3,"path":"qa/php/turnbug.md","ref":"qa/php/turnbug.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"qa/php/chname.md","mtime":"2016-06-01T07:41:41.000Z","type":"markdown"},"gitbook":{"version":"3.0.3","time":"2016-06-01T07:44:42.540Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
