@@ -1,0 +1,3584 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <title>API接口文档 · GitBook</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.0.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="description.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../getStart/">
+            
+                <a href="../getStart/">
+            
+                    
+                    快速入门
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../getStart/installAgent.html">
+            
+                <a href="../getStart/installAgent.html">
+            
+                    
+                    如何安装 Agent
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../getStart/updateAgent.html">
+            
+                <a href="../getStart/updateAgent.html">
+            
+                    
+                    如何更新 Agent
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../getStart/uninstallAgent.html">
+            
+                <a href="../getStart/uninstallAgent.html">
+            
+                    
+                    如何卸载 Agent
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../term/readme.html">
+            
+                <a href="../term/readme.html">
+            
+                    
+                    术语解释
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../term/common.html">
+            
+                <a href="../term/common.html">
+            
+                    
+                    常用术语
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../term/dr.html">
+            
+                <a href="../term/dr.html">
+            
+                    
+                    Data Retention
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../book/startUse.html">
+            
+                <a href="../book/startUse.html">
+            
+                    
+                    开始使用
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../book/monitor/Read.html">
+            
+                <a href="../book/monitor/Read.html">
+            
+                    
+                    监控
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1.1" data-path="../book/monitor/monitor_overview.html">
+            
+                <a href="../book/monitor/monitor_overview.html">
+            
+                    
+                    监控-总览
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.2" data-path="../book/monitor/monitor_map.html">
+            
+                <a href="../book/monitor/monitor_map.html">
+            
+                    
+                    监控-拓扑
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.3" data-path="../book/monitor/monitor_webTransaction.html">
+            
+                <a href="../book/monitor/monitor_webTransaction.html">
+            
+                    
+                    监控-web事务
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.4" data-path="../book/monitor/monitor_dataBase.html">
+            
+                <a href="../book/monitor/monitor_dataBase.html">
+            
+                    
+                    监控-数据库
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.5" data-path="../book/monitor/monitor_external.html">
+            
+                <a href="../book/monitor/monitor_external.html">
+            
+                    
+                    监控-外部服务
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.6" data-path="../book/monitor/monitor_bgTask.html">
+            
+                <a href="../book/monitor/monitor_bgTask.html">
+            
+                    
+                    监控-后台任务
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.7" data-path="../book/monitor/monitor_jvm.html">
+            
+                <a href="../book/monitor/monitor_jvm.html">
+            
+                    
+                    监控-JVM
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1.7.1" data-path="../book/monitor/monitor_jvm_info.html">
+            
+                <a href="../book/monitor/monitor_jvm_info.html">
+            
+                    
+                    JVM监控详细
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../book/event/Read.html">
+            
+                <a href="../book/event/Read.html">
+            
+                    
+                    事件
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.2.1" data-path="../book/event/event_errorInfo.html">
+            
+                <a href="../book/event/event_errorInfo.html">
+            
+                    
+                    事件-错误信息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.2" data-path="../book/event/event_performanceProfiling.html">
+            
+                <a href="../book/event/event_performanceProfiling.html">
+            
+                    
+                    事件-性能剖析
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../book/report/Read.html">
+            
+                <a href="../book/report/Read.html">
+            
+                    
+                    报表
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.3.1" data-path="../book/report/report_webTransaction.html">
+            
+                <a href="../book/report/report_webTransaction.html">
+            
+                    
+                    报表-web事务
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.2" data-path="../book/report/report_dataBase.html">
+            
+                <a href="../book/report/report_dataBase.html">
+            
+                    
+                    报表-数据库
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.3" data-path="../book/report/report_jvm.html">
+            
+                <a href="../book/report/report_jvm.html">
+            
+                    
+                    报表-JVM
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../book/setting/Read.html">
+            
+                <a href="../book/setting/Read.html">
+            
+                    
+                    设置
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.4.1" data-path="../book/setting/setting_serverEnvironment.html">
+            
+                <a href="../book/setting/setting_serverEnvironment.html">
+            
+                    
+                    设置-服务器环境
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4.2" data-path="../book/setting/setting_applicationSet.html">
+            
+                <a href="../book/setting/setting_applicationSet.html">
+            
+                    
+                    设置－应用设置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4.3" data-path="../book/setting/setting_customTransaction.html">
+            
+                <a href="../book/setting/setting_customTransaction.html">
+            
+                    
+                    设置－自定义事务
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../book/keyTransaction/Read.html">
+            
+                <a href="../book/keyTransaction/Read.html">
+            
+                    
+                    关键事务
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.5.1" data-path="../book/keyTransaction/keyTransaction_overview.html">
+            
+                <a href="../book/keyTransaction/keyTransaction_overview.html">
+            
+                    
+                    关键事务－总览
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5.2" data-path="../book/keyTransaction/keyTransaction_map.html">
+            
+                <a href="../book/keyTransaction/keyTransaction_map.html">
+            
+                    
+                    关键事务－拓扑
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5.3" data-path="../book/keyTransaction/keyTransaction_performanceprofiling.html">
+            
+                <a href="../book/keyTransaction/keyTransaction_performanceprofiling.html">
+            
+                    
+                    关键事务－性能剖析
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../systemSet/Read.html">
+            
+                <a href="../systemSet/Read.html">
+            
+                    
+                    系统设置
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../systemSet/account/Read.html">
+            
+                <a href="../systemSet/account/Read.html">
+            
+                    
+                    账号管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../systemSet/alarmPolicy/Read.html">
+            
+                <a href="../systemSet/alarmPolicy/Read.html">
+            
+                    
+                    报警策略
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.2.1" data-path="../systemSet/alarmPolicy/alarmPolicy_application.html">
+            
+                <a href="../systemSet/alarmPolicy/alarmPolicy_application.html">
+            
+                    
+                    报警策略－应用程序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.2" data-path="../systemSet/alarmPolicy/alarmPolicy_KeyTransaction.html">
+            
+                <a href="../systemSet/alarmPolicy/alarmPolicy_KeyTransaction.html">
+            
+                    
+                    报警策略-关键事务
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../systemSet/alarmRecording/Read.html">
+            
+                <a href="../systemSet/alarmRecording/Read.html">
+            
+                    
+                    报警记录
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../install/">
+            
+                <a href="../install/">
+            
+                    
+                    Agent安装
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../install/java/">
+            
+                <a href="../install/java/">
+            
+                    
+                    Java
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1.1" data-path="../install/java/auto.html">
+            
+                <a href="../install/java/auto.html">
+            
+                    
+                    Java Agent 自动安装方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.2" data-path="../install/java/manual.html">
+            
+                <a href="../install/java/manual.html">
+            
+                    
+                    Java Agent 手动安装方法
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1.2.1" data-path="../install/java/manual/AWS.html">
+            
+                <a href="../install/java/manual/AWS.html">
+            
+                    
+                    AWS Wlastic Beanstalk 安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.2.2" data-path="../install/java/manual/coldFusionInstall.html">
+            
+                <a href="../install/java/manual/coldFusionInstall.html">
+            
+                    
+                    ColdFusion 安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.2.3" data-path="../install/java/manual/glassfishInstall.html">
+            
+                <a href="../install/java/manual/glassfishInstall.html">
+            
+                    
+                    Glassfish 安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.2.4" data-path="../install/java/manual/jbossInstall.html">
+            
+                <a href="../install/java/manual/jbossInstall.html">
+            
+                    
+                    JBoos 安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.2.5" data-path="../install/java/manual/jettyInstall.html">
+            
+                <a href="../install/java/manual/jettyInstall.html">
+            
+                    
+                    Jetty 安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.2.6" data-path="../install/java/manual/jsvcInstall.html">
+            
+                <a href="../install/java/manual/jsvcInstall.html">
+            
+                    
+                    Jsvc 安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.2.7" data-path="../install/java/manual/playInstall.html">
+            
+                <a href="../install/java/manual/playInstall.html">
+            
+                    
+                    Play 安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.2.8" data-path="../install/java/manual/ResinInstall.html">
+            
+                <a href="../install/java/manual/ResinInstall.html">
+            
+                    
+                    Resin 安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.2.9" data-path="../install/java/manual/tomcatInstall.html">
+            
+                <a href="../install/java/manual/tomcatInstall.html">
+            
+                    
+                    Tomcat 安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.2.10" data-path="../install/java/manual/weblogicInstall.html">
+            
+                <a href="../install/java/manual/weblogicInstall.html">
+            
+                    
+                    WebLogic 安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.2.11" data-path="../install/java/manual/websphereInstall.html">
+            
+                <a href="../install/java/manual/websphereInstall.html">
+            
+                    
+                    WebSphere 安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.2.12" data-path="../install/java/javaUpdate.html">
+            
+                <a href="../install/java/javaUpdate.html">
+            
+                    
+                    Java Agent 更新方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../install/php/">
+            
+                <a href="../install/php/">
+            
+                    
+                    PHP
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.2.1" data-path="../install/php/phpinstall.html">
+            
+                <a href="../install/php/phpinstall.html">
+            
+                    
+                    php agent 安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.2" data-path="../install/php/phpupdate.html">
+            
+                <a href="../install/php/phpupdate.html">
+            
+                    
+                    php agent 更新
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.3" data-path="../install/php/stopstart.html">
+            
+                <a href="../install/php/stopstart.html">
+            
+                    
+                    php agent 暂停开启
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.4" data-path="../install/php/uninstall.html">
+            
+                <a href="../install/php/uninstall.html">
+            
+                    
+                    php agent 卸载
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../install/net/">
+            
+                <a href="../install/net/">
+            
+                    
+                    .NET
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.3.1" data-path="../install/net/netinstall.html">
+            
+                <a href="../install/net/netinstall.html">
+            
+                    
+                    .NET agent 安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3.2" data-path="../install/net/netupdate.html">
+            
+                <a href="../install/net/netupdate.html">
+            
+                    
+                    .NET agent 更新
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../support/">
+            
+                <a href="../support/">
+            
+                    
+                    兼容环境支持
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../support/javaSupport_help.html">
+            
+                <a href="../support/javaSupport_help.html">
+            
+                    
+                    Java
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../support/phpSupport_help.html">
+            
+                <a href="../support/phpSupport_help.html">
+            
+                    
+                    PHP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../support/netSupport_help.html">
+            
+                <a href="../support/netSupport_help.html">
+            
+                    
+                    .NET
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../configOptions/">
+            
+                <a href="../configOptions/">
+            
+                    
+                    配置选项
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../configOptions/config_help.html">
+            
+                <a href="../configOptions/config_help.html">
+            
+                    
+                    Java Agent 参数配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../configOptions/phpconfig_help.html">
+            
+                <a href="../configOptions/phpconfig_help.html">
+            
+                    
+                    PHP Agent 参数配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="../configOptions/netconfig_help.html">
+            
+                <a href="../configOptions/netconfig_help.html">
+            
+                    
+                    .NET Agent 参数配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../qa/">
+            
+                <a href="../qa/">
+            
+                    
+                    常见问题
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../qa/java/">
+            
+                <a href="../qa/java/">
+            
+                    
+                    Java
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1.1" data-path="../qa/java/question_help.html">
+            
+                <a href="../qa/java/question_help.html">
+            
+                    
+                    常见部署问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.1.2" data-path="../qa/java/inner-mesh_help.html">
+            
+                <a href="../qa/java/inner-mesh_help.html">
+            
+                    
+                    内网如何部署 OneAPM
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.1.3" data-path="../qa/java/extensions_help.html">
+            
+                <a href="../qa/java/extensions_help.html">
+            
+                    
+                    OneAPM 拓展功能使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="../qa/php/">
+            
+                <a href="../qa/php/">
+            
+                    
+                    PHP
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.2.1" data-path="../qa/php/ali.html">
+            
+                <a href="../qa/php/ali.html">
+            
+                    
+                    阿里云常见问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2.2" data-path="../qa/php/noapp.html">
+            
+                <a href="../qa/php/noapp.html">
+            
+                    
+                    安装成功无数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2.3" data-path="../qa/php/qa.html">
+            
+                <a href="../qa/php/qa.html">
+            
+                    
+                    常见问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2.4" data-path="../qa/php/turnbug.html">
+            
+                <a href="../qa/php/turnbug.html">
+            
+                    
+                    开启 debug
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2.5" data-path="../qa/php/chname.html">
+            
+                <a href="../qa/php/chname.html">
+            
+                    
+                    重命名 PHP 应用程序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2.6" data-path="../qa/php/amh.html">
+            
+                <a href="../qa/php/amh.html">
+            
+                    
+                    AMH云主机使用OneAPM PHP Agent 方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3" data-path="../qa/net/">
+            
+                <a href="../qa/net/">
+            
+                    
+                    .NET
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.3.1" data-path="../qa/net/pingAndTelnet.html">
+            
+                <a href="../qa/net/pingAndTelnet.html">
+            
+                    
+                    .NET Agent 安装成功，没有数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3.2" data-path="../qa/net/Investigation.html">
+            
+                <a href="../qa/net/Investigation.html">
+            
+                    
+                    .NET Agent 常见故障排查方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3.3" data-path="../qa/net/customMonitor.html">
+            
+                <a href="../qa/net/customMonitor.html">
+            
+                    
+                    业务代码，自定义监控使用说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3.4" data-path="../qa/net/collectmessage.html">
+            
+                <a href="../qa/net/collectmessage.html">
+            
+                    
+                    .NET Agent 收集日志信息方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="Readme.html">
+            
+                <a href="Readme.html">
+            
+                    
+                    帮助中心
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="description.html">
+            
+                <a href="description.html">
+            
+                    
+                    API说明文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.10.2" data-path="data.html">
+            
+                <a href="data.html">
+            
+                    
+                    API接口文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" >
+            
+                <a target="_blank" href="http://support.oneapm.com/forum/category/9253/">
+            
+                    
+                    版本日志
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >API接口文档</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="saas-ai-api-&#x63A5;&#x53E3;&#x6587;&#x6863;">SaaS-Ai API &#x63A5;&#x53E3;&#x6587;&#x6863;</h1>
+<p><strong>&#x7248;&#x6743;&#x58F0;&#x660E;</strong></p>
+<p>&#x672C;&#x6587;&#x6863;&#x7248;&#x6743;&#x5F52;&#x5317;&#x4EAC;&#x84DD;&#x6D77;&#x8BAF;&#x901A;&#x79D1;&#x6280;&#x80A1;&#x4EFD;&#x6709;&#x9650;&#x516C;&#x53F8;&#x6240;&#x6709;&#xFF0C;&#x5E76;&#x4FDD;&#x7559;&#x4E00;&#x5207;&#x6743;&#x5229;&#x3002;&#x672A;&#x7ECF;&#x4E66;&#x9762;&#x8BB8;&#x53EF;&#xFF0C;&#x4EFB;&#x4F55;&#x516C;&#x53F8;&#x548C;&#x4E2A;&#x4EBA;&#x4E0D;&#x5F97;&#x5C06;&#x6B64;&#x6587;&#x6863;&#x4E2D;&#x7684;&#x4EFB;&#x4F55;&#x90E8;&#x5206;&#x516C;&#x5F00;&#x3001;&#x8F6C;&#x8F7D;&#x6216;&#x4EE5;&#x5176;&#x4ED6;&#x65B9;&#x5F0F;&#x6563;&#x53D1;&#x7ED9;&#x7B2C;&#x4E09;&#x65B9;&#x3002;&#x5426;&#x5219;&#xFF0C;&#x5FC5;&#x5C06;&#x8FFD;&#x7A76;&#x5176;&#x6CD5;&#x5F8B;&#x8D23;&#x4EFB;&#x3002;</p>
+<p><strong>&#x514D;&#x8D23;&#x58F0;&#x660E;</strong></p>
+<p>&#x672C;&#x6587;&#x6863;&#x4EC5;&#x63D0;&#x4F9B;&#x9636;&#x6BB5;&#x6027;&#x4FE1;&#x606F;&#xFF0C;&#x6240;&#x542B;&#x5185;&#x5BB9;&#x53EF;&#x6839;&#x636E;&#x4EA7;&#x54C1;&#x7684;&#x5B9E;&#x9645;&#x60C5;&#x51B5;&#x968F;&#x65F6;&#x66F4;&#x65B0;&#xFF0C;&#x6055;&#x4E0D;&#x53E6;&#x884C;&#x901A;&#x77E5;&#x3002;&#x5982;&#x56E0;&#x6587;&#x6863;&#x4F7F;&#x7528;&#x4E0D;&#x5F53;&#x9020;&#x6210;&#x7684;&#x76F4;&#x63A5;&#x6216;&#x95F4;&#x63A5;&#x635F;&#x5931;&#xFF0C;&#x672C;&#x516C;&#x53F8;&#x4E0D;&#x627F;&#x62C5;&#x4EFB;&#x4F55;&#x8D23;&#x4EFB;&#x3002;</p>
+<p><strong>&#x6587;&#x6863;&#x66F4;&#x65B0;</strong></p>
+<p>&#x9002;&#x7528;&#x7248;&#x672C;: SaaS-Ai v2 
+&#x672C;&#x6587;&#x6863;&#x7531;&#x5317;&#x4EAC;&#x84DD;&#x6D77;&#x8BAF;&#x901A;&#x79D1;&#x6280;&#x80A1;&#x4EFD;&#x6709;&#x9650;&#x516C;&#x53F8;&#x4E8E;2016&#x5E74;6&#x6708;&#x6700;&#x540E;&#x4FEE;&#x8BA2;&#x3002;</p>
+<hr>
+<h2 id="1-&#x76D1;&#x63A7;api">1. &#x76D1;&#x63A7;API</h2>
+<h3 id="11-&#x53C2;&#x6570;&#x8BF4;&#x660E;">1.1 &#x53C2;&#x6570;&#x8BF4;&#x660E;</h3>
+<ul>
+<li><code>spanTime</code>: &#x6700;&#x8FD1;&#x65F6;&#x95F4;</li>
+<li><code>interval</code>: &#x65F6;&#x95F4;&#x95F4;&#x9694;</li>
+<li><code>type</code>: &#x53EF;&#x53D6;&#x503C;&#x5217;&#x8868;&#x5982;&#x4E0B;<ul>
+<li><code>WebTransaction</code></li>
+<li><code>External</code></li>
+<li><code>Apdex</code></li>
+<li><code>Datastore</code></li>
+<li><code>Database</code></li>
+</ul>
+</li>
+<li><code>start</code>: &#x6574;&#x6570; (&#x7FFB;&#x9875;&#x8D77;&#x59CB;&#x4F4D;&#x7F6E;)</li>
+<li><code>limit</code>: &#x6574;&#x6570; (&#x6BCF;&#x9875;&#x663E;&#x793A;item&#x6570;&#x76EE;)</li>
+<li><code>orderBy</code>: &#x53EF;&#x53D6;&#x503C;&#x5217;&#x8868;&#x5982;&#x4E0B;<ul>
+<li><code>ORDERBY_S1_S2_DESC</code>: &#x541E;&#x5410;&#x91CF;</li>
+<li><code>ORDERBY_S2_S1_DESC</code>: &#x5E73;&#x5747;&#x54CD;&#x5E94;&#x65F6;&#x95F4;</li>
+<li><code>ORDERBY_S3_S1_DESC</code>: &#x5E73;&#x5747;&#x6267;&#x884C;&#x65F6;&#x95F4;</li>
+<li><code>ORDERBY_S1_DESC</code>: &#x8C03;&#x7528;&#x6B21;&#x6570;</li>
+<li><code>ORDERBY_S2_DESC</code>: &#x54CD;&#x5E94;&#x65F6;&#x95F4;</li>
+<li><code>ORDERBY_S3_DESC</code>: &#x8C03;&#x7528;&#x6B21;&#x6570;</li>
+<li><code>ORDERBY_S4_ASC</code>: &#x6700;&#x5C0F;&#x503C;</li>
+</ul>
+</li>
+<li><code>endTime</code>: &#x622A;&#x81F3;&#x65F6;&#x95F4;</li>
+<li><code>fields</code>: &#x53EF;&#x53D6;&#x503C;&#x5217;&#x8868;&#x5982;&#x4E0B;<ul>
+<li><code>Apdex</code></li>
+<li><code>Errors</code></li>
+</ul>
+</li>
+<li><code>name</code>: &#x53EF;&#x53D6;&#x503C;&#x5217;&#x8868;&#x5982;&#x4E0B;<ul>
+<li><code>WebTransaction</code></li>
+<li><code>DatabaseWeb</code></li>
+<li><code>MongoDBWeb</code></li>
+<li><code>MemcachedWeb</code></li>
+<li><code>RedisWeb</code></li>
+<li><code>ExternalWeb</code></li>
+<li><code>CPU</code></li>
+<li><code>Mem</code></li>
+</ul>
+</li>
+</ul>
+<h3 id="12-&#x603B;&#x89C8;api">1.2 &#x603B;&#x89C8;API</h3>
+<h4 id="121-&#x603B;&#x89C8;&#x54CD;&#x5E94;&#x65F6;&#x95F4;">1.2.1 &#x603B;&#x89C8;&#x54CD;&#x5E94;&#x65F6;&#x95F4;</h4>
+<ul>
+<li>url</li>
+</ul>
+<p><code>/ai/applications/{applicationId}/stats/detail.json</code></p>
+<ul>
+<li>Request Method:</li>
+</ul>
+<p><code>GET</code></p>
+<ul>
+<li>Content-Type:</li>
+</ul>
+<p><code>application/x-www-form-urlencoded</code></p>
+<ul>
+<li>&#x53C2;&#x6570;&#xFF1A;</li>
+</ul>
+<p>spanTime:1800000
+interval:60000
+start:0
+limit:5
+name:WebTransaction
+name:DatabaseWeb
+name:MongoDBWeb
+name:MemcachedWeb
+name:RedisWeb
+name:ExternalWeb
+endTime:</p>
+<p><strong>&#x4F8B;&#x5B50;</strong></p>
+<ul>
+<li>Request URL:</li>
+</ul>
+<pre><code>https://api.oneapm.com/ai/applications/2279554/stats/detail.json&#xFF1F;api-key=api-key&#x5185;&#x5BB9;
+&amp;spanTime=1800000&amp;interval=60000&amp;start=0&amp;limit=5&amp;name=WebTransaction
+&amp;name=DatabaseWeb&amp;name=MongoDBWeb&amp;name=MemcachedWeb&amp;name=RedisWeb
+&amp;name=ExternalWeb&amp;endTime=
+</code></pre><ul>
+<li>&#x7ED3;&#x679C;&#xFF1A;</li>
+</ul>
+<pre><code>{
+    &quot;results&quot;: [
+        {
+            &quot;data&quot;: [
+                {
+                    &quot;fields&quot;: {
+                        &quot;result&quot;: [
+                            454,  //&#x8C03;&#x7528;&#x6B21;&#x6570;
+                            3.9524461030960083,  //&#x54CD;&#x5E94;&#x65F6;&#x95F4;&#x603B;&#x548C;
+                            3.9524461030960083,  //&#x6267;&#x884C;&#x65F6;&#x95F4;
+                            0.0030819999519735575,  //&#x6700;&#x5C0F;&#x54CD;&#x5E94;&#x65F6;&#x95F4;
+                            0.040867000818252563,  //&#x6700;&#x5927;&#x54CD;&#x5E94;&#x65F6;&#x95F4;
+                            0.07299500145018101  //&#x54CD;&#x5E94;&#x65F6;&#x95F4;&#x5E73;&#x65B9;&#x548C;
+                        ]
+                    },
+                    &quot;time&quot;: {  //&#x8BE5;&#x6BB5;&#x91C7;&#x6837;&#x65F6;&#x95F4;&#x5185;&#x7684;&#x6570;&#x636E;
+                        &quot;endTime&quot;: 1465203600000,
+                        &quot;startTime&quot;: 1465203000000
+                    }
+                },
+                ......
+            ],
+            &quot;displayName&quot;: &quot;WebTransaction&quot;,
+            &quot;id&quot;: 2428022611,
+            &quot;name&quot;: &quot;WebTransaction&quot;,  //web&#x4E8B;&#x52A1;
+            &quot;title&quot;: &quot;WebTransaction&quot;,
+            &quot;type&quot;: &quot;WebTransaction&quot;
+        },
+        {
+            &quot;data&quot;: [
+                {
+                    &quot;fields&quot;: {
+                        &quot;result&quot;: [
+                            212,  //&#x8C03;&#x7528;&#x6B21;&#x6570;
+                            0.10384699981659651,  //&#x54CD;&#x5E94;&#x65F6;&#x95F4;&#x603B;&#x548C;
+                            0.10384699981659651,  //&#x6267;&#x884C;&#x65F6;&#x95F4;
+                            0.00034100000630132854,  //&#x6700;&#x5C0F;&#x54CD;&#x5E94;&#x65F6;&#x95F4;
+                            0.0008360000210814178,  //&#x6700;&#x5927;&#x54CD;&#x5E94;&#x65F6;&#x95F4;
+                            0.00005199999941396527  //&#x54CD;&#x5E94;&#x65F6;&#x95F4;&#x5E73;&#x65B9;&#x548C;
+                        ]
+                    },
+                    &quot;time&quot;: {  //&#x8BE5;&#x6BB5;&#x91C7;&#x6837;&#x65F6;&#x95F4;&#x5185;&#x7684;&#x6570;&#x636E;
+                        &quot;endTime&quot;: 1465203600000,
+                        &quot;startTime&quot;: 1465203000000
+                    }
+                },
+                .....
+            ],
+            &quot;displayName&quot;: &quot;allWeb&quot;,
+            &quot;id&quot;: 2428022624,
+            &quot;name&quot;: &quot;Database/allWeb&quot;, //web&#x4E8B;&#x52A1;&#x4E2D;&#x7684;&#x6570;&#x636E;&#x5E93;&#x7C7B;&#x578B;metric
+            &quot;title&quot;: &quot;Database&quot;,
+            &quot;type&quot;: &quot;Database&quot;
+        },
+        {
+            &quot;data&quot;: [], //num1~num6&#x6570;&#x636E;&#x542B;&#x4E49;&#x540C;&#x4E0A;
+            &quot;displayName&quot;: &quot;MongoDB/allWeb&quot;,
+            &quot;name&quot;: &quot;Datastore/MongoDB/allWeb&quot;  //web&#x4E8B;&#x52A1;&#x6240;&#x6709;mongoDB&#x64CD;&#x4F5C;&#x603B;&#x548C;
+        },
+        {
+            &quot;data&quot;: [],  //num1~num6&#x6570;&#x636E;&#x542B;&#x4E49;&#x540C;&#x4E0A;
+            &quot;displayName&quot;: &quot;Memcached/allWeb&quot;,
+            &quot;name&quot;: &quot;Datastore/Memcached/allWeb&quot; //web&#x4E8B;&#x52A1;&#x6240;&#x6709;Memcached&#x64CD;&#x4F5C;&#x603B;&#x548C;
+        },
+        {
+            &quot;data&quot;: [],  //num1~num6&#x6570;&#x636E;&#x542B;&#x4E49;&#x540C;&#x4E0A;
+            &quot;displayName&quot;: &quot;Redis/allWeb&quot;,
+            &quot;name&quot;: &quot;Datastore/Redis/allWeb&quot; //web&#x4E8B;&#x52A1;&#x6240;&#x6709;redis&#x64CD;&#x4F5C;&#x603B;&#x548C;
+        },
+        {
+            &quot;data&quot;: [
+                {
+                    &quot;fields&quot;: {
+                        &quot;result&quot;: [
+                            106,  //&#x8C03;&#x7528;&#x6B21;&#x6570;
+                            1.386326976120472,  //&#x54CD;&#x5E94;&#x65F6;&#x95F4;&#x603B;&#x548C;
+                            1.386326976120472,  //&#x6267;&#x884C;&#x65F6;&#x95F4;
+                            0.004679999779909849,  //&#x6700;&#x5C0F;&#x54CD;&#x5E94;&#x65F6;&#x95F4;
+                            0.02655399963259697,  //&#x6700;&#x5927;&#x54CD;&#x5E94;&#x65F6;&#x95F4;
+                            0.025056000566110015  //&#x54CD;&#x5E94;&#x65F6;&#x95F4;&#x5E73;&#x65B9;&#x548C;
+                        ]
+                    },
+                    &quot;time&quot;: {  //&#x8BE5;&#x6BB5;&#x91C7;&#x6837;&#x65F6;&#x95F4;&#x5185;&#x7684;&#x6570;&#x636E;
+                        &quot;endTime&quot;: 1465203600000,
+                        &quot;startTime&quot;: 1465203000000
+                    }
+                },
+                ...... //&#x5176;&#x5B83;&#x91C7;&#x6837;&#x65F6;&#x95F4;&#x6BB5;&#x5185;&#x7684;&#x6570;&#x636E;
+            ],
+            &quot;displayName&quot;: &quot;allWeb&quot;,
+            &quot;id&quot;: 2428022647,
+            &quot;name&quot;: &quot;External/allWeb&quot;, //web&#x4E8B;&#x52A1;&#x6240;&#x6709;&#x5916;&#x90E8;&#x8BF7;&#x6C42;&#x64CD;&#x4F5C;&#x603B;&#x548C;
+            &quot;title&quot;: &quot;External&quot;,
+            &quot;type&quot;: &quot;External&quot;
+        }
+    ],
+    &quot;timeSpan&quot;: {
+        &quot;endTime&quot;: 1465203480000,
+        &quot;startTime&quot;: 1465181880000
+    }
+}
+</code></pre><h4 id="122-apdex">1.2.2 Apdex</h4>
+<ul>
+<li>url</li>
+</ul>
+<p><code>/ai/applications/{applicationId}/stats/detail.json</code></p>
+<ul>
+<li>Request Method:</li>
+</ul>
+<p><code>GET</code></p>
+<ul>
+<li>Content-Type:</li>
+</ul>
+<p><code>application/x-www-form-urlencoded</code></p>
+<ul>
+<li>&#x53C2;&#x6570;&#xFF1A;</li>
+</ul>
+<p>spanTime:1800000
+interval:60000
+start:0
+limit:5
+name:Apdex
+endTime:</p>
+<p><strong>&#x4F8B;&#x5B50;</strong></p>
+<ul>
+<li>Request URL:</li>
+</ul>
+<pre><code>https://api.oneapm.com/ai/applications/2279554/stats/detail.json?api-key=api-key&#x5185;&#x5BB9;
+&amp;spanTime=1800000&amp;interval=60000&amp;start=0&amp;limit=5&amp;name=Apdex&amp;endTime=
+</code></pre><ul>
+<li>&#x7ED3;&#x679C;&#xFF1A;</li>
+</ul>
+<pre><code>{
+    &quot;results&quot;: [
+        {
+            &quot;data&quot;: [
+                {
+                    &quot;fields&quot;: {
+                        &quot;Apdex&quot;: [
+                            454,  //&#x6B63;&#x5E38;&#x8C03;&#x7528;&#x6B21;&#x6570;
+                            0,  //&#x53EF;&#x5BB9;&#x5FCD;&#x8C03;&#x7528;&#x6B21;&#x6570;
+                            0,  //&#x4E0D;&#x53EF;&#x5BB9;&#x5FCD;&#x8C03;&#x7528;&#x6B21;&#x6570;
+                            0.5,  //ApdexT
+                            0.5,  //ApdexT
+                            0  //&#x6682;&#x7A7A;
+                        ]
+                    },
+                    &quot;time&quot;: {  //&#x8BE5;&#x6BB5;&#x91C7;&#x6837;&#x65F6;&#x95F4;&#x5185;&#x7684;&#x6570;&#x636E;
+                        &quot;endTime&quot;: 1465203600000,
+                        &quot;startTime&quot;: 1465203000000
+                    }
+                },
+                ......
+            ],
+            &quot;displayName&quot;: &quot;Apdex&quot;,
+            &quot;id&quot;: 2428022549,
+            &quot;name&quot;: &quot;Apdex&quot;, //&#x6240;&#x6709;Web&#x4E8B;&#x52A1;Apdex&#x6307;&#x6807;
+            &quot;type&quot;: &quot;Apdex&quot;
+        }
+    ],
+    &quot;timeSpan&quot;: {
+        &quot;endTime&quot;: 1465203480000,
+        &quot;startTime&quot;: 1465181880000
+    }
+}
+</code></pre><h4 id="123-&#x541E;&#x5410;&#x91CF;">1.2.3 &#x541E;&#x5410;&#x91CF;</h4>
+<ul>
+<li>url</li>
+</ul>
+<p><code>/ai/applications/{applicationId}/stats/detail.json</code></p>
+<ul>
+<li>Request Method:</li>
+</ul>
+<p><code>GET</code></p>
+<ul>
+<li>Content-Type:</li>
+</ul>
+<p><code>application/x-www-form-urlencoded</code></p>
+<ul>
+<li>&#x53C2;&#x6570;&#xFF1A;</li>
+</ul>
+<p>spanTime:1800000
+interval:60000
+start:0
+limit:5
+name:WebTransaction
+endTime:</p>
+<p><strong>&#x4F8B;&#x5B50;</strong></p>
+<ul>
+<li>Request URL:</li>
+</ul>
+<pre><code>https://api.oneapm.com/ai/applications/2279554/stats/detail.json?api-key=api-key&#x5185;&#x5BB9;
+&amp;spanTime=1800000&amp;interval=60000&amp;start=0&amp;limit=5&amp;name=WebTransaction&amp;endTime=
+</code></pre><ul>
+<li>&#x7ED3;&#x679C;&#xFF1A;</li>
+</ul>
+<pre><code>{
+    &quot;results&quot;: [
+        {
+            &quot;data&quot;: [
+                 {
+                    &quot;fields&quot;: {
+                        &quot;result&quot;: [
+                            46,  //&#x8C03;&#x7528;&#x6B21;&#x6570;
+                            0.42274001240730286,  //&#x54CD;&#x5E94;&#x65F6;&#x95F4;&#x603B;&#x548C;
+                            0.42274001240730286,  //&#x6267;&#x884C;&#x65F6;&#x95F4;
+                            0.0032569998875260353,  //&#x6700;&#x5C0F;&#x54CD;&#x5E94;&#x65F6;&#x95F4;
+                            0.036476001143455505,  //&#x6700;&#x5927;&#x54CD;&#x5E94;&#x65F6;&#x95F4;
+                            0.0077840001322329044  //&#x54CD;&#x5E94;&#x65F6;&#x95F4;&#x5E73;&#x65B9;&#x548C;
+                        ]
+                    },
+                    &quot;time&quot;: { //&#x8BE5;&#x6BB5;&#x91C7;&#x6837;&#x65F6;&#x95F4;&#x5185;&#x7684;&#x6570;&#x636E;
+                        &quot;endTime&quot;: 1465378440000,
+                        &quot;startTime&quot;: 1465378380000
+                    }
+                },
+                ...... //&#x5176;&#x5B83;&#x91C7;&#x6837;&#x65F6;&#x95F4;&#x6BB5;&#x5185;&#x7684;&#x6570;&#x636E;
+            ],
+            &quot;displayName&quot;: &quot;WebTransaction&quot;,
+            &quot;id&quot;: 2428022611,
+            &quot;name&quot;: &quot;WebTransaction&quot;,
+            &quot;title&quot;: &quot;WebTransaction&quot;,
+            &quot;type&quot;: &quot;WebTransaction&quot;
+        }
+    ],
+    &quot;timeSpan&quot;: {
+        &quot;endTime&quot;: 1465378482826,
+        &quot;startTime&quot;: 1465376682826
+    }
+}
+</code></pre><h4 id="124-web&#x4E8B;&#x52A1;">1.2.4 Web&#x4E8B;&#x52A1;</h4>
+<h5 id="1241-&#x83B7;&#x53D6;&#x6BCF;&#x6761;web&#x4E8B;&#x52A1;&#x7684;id">1.2.4.1 &#x83B7;&#x53D6;&#x6BCF;&#x6761;Web&#x4E8B;&#x52A1;&#x7684;id</h5>
+<ul>
+<li>url</li>
+</ul>
+<p><code>/ai/applications/{applicationId}/stats/topn.json</code></p>
+<ul>
+<li>Request Method:</li>
+</ul>
+<p><code>GET</code></p>
+<ul>
+<li>Content-Type:</li>
+</ul>
+<p><code>application/x-www-form-urlencoded</code></p>
+<ul>
+<li>&#x53C2;&#x6570;&#xFF1A;</li>
+</ul>
+<p>spanTime:1800000
+interval:
+type:WebTransaction
+start:0
+limit:3
+orderBy:ORDERBY_S2_S1_DESC
+endTime:</p>
+<p><strong>&#x4F8B;&#x5B50;</strong></p>
+<ul>
+<li>Request URL:</li>
+</ul>
+<pre><code>https://api.oneapm.com/ai/applications/2279716/stats/topn.json?api-key=api-key&#x5185;&#x5BB9;
+&amp;spanTime=1800000&amp;interval=&amp;type=WebTransaction&amp;start=0
+&amp;limit=3&amp;orderBy=ORDERBY_S2_S1_DESC&amp;endTime=
+</code></pre><ul>
+<li>&#x7ED3;&#x679C;&#xFF1A;</li>
+</ul>
+<pre><code>{
+    &quot;results&quot;: [
+        {
+            &quot;data&quot;: [
+                {
+                    &quot;fields&quot;: {
+                        &quot;result&quot;: [
+                            9141,
+                            451.3370990753174,
+                            451.3370990753174,
+                            0.01962300017476082,
+                            1.129634976387024,
+                            46.07066595554352
+                        ]
+                    },
+                    &quot;time&quot;: {
+                        &quot;endTime&quot;: 1465695720000,
+                        &quot;startTime&quot;: 1465693920000
+                    }
+                }
+            ],
+            &quot;displayName&quot;: &quot;Uri/discuz/upload/misc.php&quot;,
+            &quot;id&quot;: 2448907286,  // &#x83B7;&#x53D6;&#x8BE5;&#x6761;Web&#x4E8B;&#x52A1;&#x5BF9;&#x5E94;&#x7684;id
+            &quot;name&quot;: &quot;WebTransaction/Uri/discuz/upload/misc.php&quot;,
+            &quot;title&quot;: &quot;WebTransaction/Uri/discuz/upload/misc.php&quot;,
+            &quot;type&quot;: &quot;WebTransaction&quot;
+        },
+        {
+            &quot;data&quot;: [
+                {
+                    &quot;fields&quot;: {
+                        &quot;result&quot;: [
+                            7999,
+                            296.83630180358887,
+                            296.83630180358887,
+                            0.03432599827647209,
+                            0.043685998767614365,
+                            11.021471977233887
+                        ]
+                    },
+                    &quot;time&quot;: {
+                        &quot;endTime&quot;: 1465695720000,
+                        &quot;startTime&quot;: 1465693920000
+                    }
+                }
+            ],
+            &quot;displayName&quot;: &quot;Uri/discuz/upload/forum.php&quot;,
+            &quot;id&quot;: 2448907283,  // &#x83B7;&#x53D6;&#x8BE5;&#x6761;Web&#x4E8B;&#x52A1;&#x5BF9;&#x5E94;&#x7684;id
+            &quot;name&quot;: &quot;WebTransaction/Uri/discuz/upload/forum.php&quot;,
+            &quot;title&quot;: &quot;WebTransaction/Uri/discuz/upload/forum.php&quot;,
+            &quot;type&quot;: &quot;WebTransaction&quot;
+        },
+        {
+            &quot;data&quot;: [
+                {
+                    &quot;fields&quot;: {
+                        &quot;result&quot;: [
+                            5713,
+                            187.84444761276245,
+                            187.84444761276245,
+                            0.018213000148534775,
+                            0.05569300055503845,
+                            7.0720009952783585
+                        ]
+                    },
+                    &quot;time&quot;: {
+                        &quot;endTime&quot;: 1465695720000,
+                        &quot;startTime&quot;: 1465693920000
+                    }
+                }
+            ],
+            &quot;displayName&quot;: &quot;Uri/discuz/upload/member.php&quot;,
+            &quot;id&quot;: 2448907468,  // &#x83B7;&#x53D6;&#x8BE5;&#x6761;Web&#x4E8B;&#x52A1;&#x5BF9;&#x5E94;&#x7684;id
+            &quot;name&quot;: &quot;WebTransaction/Uri/discuz/upload/member.php&quot;,
+            &quot;title&quot;: &quot;WebTransaction/Uri/discuz/upload/member.php&quot;,
+            &quot;type&quot;: &quot;WebTransaction&quot;
+        }
+    ],
+    &quot;timeSpan&quot;: {
+        &quot;endTime&quot;: 1465695730381,
+        &quot;startTime&quot;: 1465693930381
+    }
+}
+</code></pre><h5 id="1242-&#x6839;&#x636E;web&#x4E8B;&#x52A1;id&#x83B7;&#x53D6;web&#x4E8B;&#x52A1;&#x4FE1;&#x606F;">1.2.4.2 &#x6839;&#x636E;Web&#x4E8B;&#x52A1;id&#x83B7;&#x53D6;Web&#x4E8B;&#x52A1;&#x4FE1;&#x606F;</h5>
+<ul>
+<li>url</li>
+</ul>
+<p><code>/ai/applications/{applicationId}/transactions/traces.json</code></p>
+<ul>
+<li>Request Method:</li>
+</ul>
+<p><code>GET</code></p>
+<ul>
+<li>Content-Type:</li>
+</ul>
+<p><code>application/x-www-form-urlencoded</code></p>
+<ul>
+<li>&#x53C2;&#x6570;&#xFF1A;</li>
+</ul>
+<p>begin:1800000
+spanTime:1800000
+offset:0
+limit:3
+orderBy:[object Object]
+transType:webTransaction
+metricId:2448907286
+endTime:</p>
+<p><strong>&#x4F8B;&#x5B50;</strong></p>
+<p>&#x4EE5;<code>metricId=2448907286</code>&#x4E3A;&#x4F8B;&#xFF0C;&#x83B7;&#x53D6;&#x8BE5;&#x6761;Web&#x4E8B;&#x52A1;&#x5BF9;&#x5E94;&#x7684;&#x4FE1;&#x606F;&#x3002;</p>
+<ul>
+<li>Request URL:</li>
+</ul>
+<pre><code>https://api.oneapm.com/ai/applications/2279716/transactions/traces.json
+?api-key=api-key&#x5185;&#x5BB9;&amp;begin=1800000&amp;spanTime=1800000&amp;offset=0&amp;limit=3
+&amp;orderBy=%5Bobject+Object%5D&amp;transType=webTransaction&amp;metricId=2448907286&amp;endTime=
+</code></pre><ul>
+<li>&#x7ED3;&#x679C;&#xFF1A;</li>
+</ul>
+<pre><code>[
+    {
+        &quot;agentName&quot;: &quot;PHP:php-testapplication11:7070(iZ25znillayZ)&quot;,
+        &quot;agentRunId&quot;: 64505,
+        &quot;duration&quot;: 20,
+        &quot;guid&quot;: &quot;411E74C1F4CF417A&quot;,
+        &quot;isPersist&quot;: 1,
+        &quot;ratio&quot;: 0.3125,
+        &quot;requestUrl&quot;: &quot;http://123.56.244.166:7070/discuz/upload/misc.php&quot;,
+        &quot;rootMetricName&quot;: &quot;Uri/discuz/upload/misc.php&quot;,
+        &quot;rootType&quot;: &quot;WebTransaction&quot;,
+        &quot;startTime&quot;: &quot;2016-06-12 09:13:22&quot;,
+        &quot;transactionId&quot;: 2616699015,
+        &quot;xrayId&quot;: 0
+    },
+    {
+        &quot;agentName&quot;: &quot;PHP:php-testapplication11:7070(iZ25znillayZ)&quot;,
+        &quot;agentRunId&quot;: 64505,
+        &quot;duration&quot;: 22,
+        &quot;guid&quot;: &quot;5DF06134559942AA&quot;,
+        &quot;isPersist&quot;: 1,
+        &quot;ratio&quot;: 0.34375,
+        &quot;requestUrl&quot;: &quot;http://123.56.244.166:7070/discuz/upload/misc.php&quot;,
+        &quot;rootMetricName&quot;: &quot;Uri/discuz/upload/misc.php&quot;,
+        &quot;rootType&quot;: &quot;WebTransaction&quot;,
+        &quot;startTime&quot;: &quot;2016-06-12 09:13:22&quot;,
+        &quot;transactionId&quot;: 2616699016,
+        &quot;xrayId&quot;: 0
+    },
+    {
+        &quot;agentName&quot;: &quot;PHP:php-testapplication11:7070(iZ25znillayZ)&quot;,
+        &quot;agentRunId&quot;: 64505,
+        &quot;duration&quot;: 22,
+        &quot;guid&quot;: &quot;326679066A2646D4&quot;,
+        &quot;isPersist&quot;: 1,
+        &quot;ratio&quot;: 0.34375,
+        &quot;requestUrl&quot;: &quot;http://123.56.244.166:7070/discuz/upload/misc.php&quot;,
+        &quot;rootMetricName&quot;: &quot;Uri/discuz/upload/misc.php&quot;,
+        &quot;rootType&quot;: &quot;WebTransaction&quot;,
+        &quot;startTime&quot;: &quot;2016-06-12 09:14:22&quot;,
+        &quot;transactionId&quot;: 2616708988,
+        &quot;xrayId&quot;: 0
+    }
+]
+</code></pre><h4 id="125-&#x9519;&#x8BEF;&#x7387;">1.2.5 &#x9519;&#x8BEF;&#x7387;</h4>
+<ul>
+<li>url</li>
+</ul>
+<p><code>/ai/applications/{applicationId}/stats/detail.json</code></p>
+<ul>
+<li>Request Method:</li>
+</ul>
+<p><code>GET</code></p>
+<ul>
+<li>Content-Type:</li>
+</ul>
+<p><code>application/x-www-form-urlencoded</code></p>
+<ul>
+<li>&#x53C2;&#x6570;&#xFF1A;</li>
+</ul>
+<p>spanTime:1800000
+interval:60000
+fields:Errors
+start:0
+limit:5
+name:WebTransaction
+endTime:</p>
+<p><strong>&#x4F8B;&#x5B50;</strong></p>
+<ul>
+<li>Request URL:</li>
+</ul>
+<pre><code>https://api.oneapm.com/ai/applications/2279554/stats/detail.json?api-key=api-key&#x5185;&#x5BB9;
+&amp;spanTime=1800000&amp;interval=60000&amp;fields=Errors&amp;start=0&amp;limit=5
+&amp;name=WebTransaction&amp;endTime=
+</code></pre><ul>
+<li>&#x7ED3;&#x679C;&#xFF1A;</li>
+</ul>
+<pre><code>{
+    &quot;results&quot;: [
+        {
+            &quot;data&quot;: [
+                {
+                    &quot;fields&quot;: {
+                        &quot;result&quot;: [
+                            454,  //&#x8C03;&#x7528;&#x6B21;&#x6570;
+                            3.9524461030960083,  //&#x54CD;&#x5E94;&#x65F6;&#x95F4;&#x603B;&#x548C;
+                            3.9524461030960083,  //&#x54CD;&#x5E94;&#x65F6;&#x95F4;&#x603B;&#x548C;
+                            0.0030819999519735575,  //&#x6700;&#x5C0F;&#x54CD;&#x5E94;&#x65F6;&#x95F4;
+                            0.040867000818252563,  //&#x6700;&#x5927;&#x54CD;&#x5E94;&#x65F6;&#x95F4;
+                            0.07299500331282616     //&#x54CD;&#x5E94;&#x65F6;&#x95F4;&#x5E73;&#x65B9;&#x548C;
+                        ]
+                    },
+                    &quot;time&quot;: { //&#x8BE5;&#x6BB5;&#x91C7;&#x6837;&#x65F6;&#x95F4;&#x5185;&#x7684;&#x6570;&#x636E;
+                        &quot;endTime&quot;: 1465203600000,
+                        &quot;startTime&quot;: 1465203000000
+                    }
+                },
+                ...... //&#x5176;&#x5B83;&#x91C7;&#x6837;&#x65F6;&#x95F4;&#x6BB5;&#x5185;&#x7684;&#x6570;&#x636E;
+            ],
+            &quot;displayName&quot;: &quot;WebTransaction&quot;,
+            &quot;id&quot;: 2428022611,
+            &quot;name&quot;: &quot;WebTransaction&quot;,
+            &quot;title&quot;: &quot;WebTransaction&quot;,
+            &quot;type&quot;: &quot;WebTransaction&quot;
+        }
+    ],
+    &quot;timeSpan&quot;: {
+        &quot;endTime&quot;: 1465203480000,
+        &quot;startTime&quot;: 1465181880000
+    }
+}
+</code></pre><h4 id="126-&#x670D;&#x52A1;&#x5668;">1.2.6 &#x670D;&#x52A1;&#x5668;</h4>
+<ul>
+<li>url</li>
+</ul>
+<p><code>/ai/applications/{applicationId}/agents/overviews.json</code></p>
+<ul>
+<li>Request Method:</li>
+</ul>
+<p><code>GET</code></p>
+<ul>
+<li>Content-Type:</li>
+</ul>
+<p><code>application/x-www-form-urlencoded</code></p>
+<ul>
+<li>&#x53C2;&#x6570;&#xFF1A;</li>
+</ul>
+<p>begin:1800000
+spanTime:1800000
+endTime:</p>
+<p><strong>&#x4F8B;&#x5B50;</strong></p>
+<ul>
+<li>Request URL:</li>
+</ul>
+<pre><code>https://api.oneapm.com/ai/applications/2279554/agents/overviews.json
+?api-key-api-key&#x5185;&#x5BB9;&amp;begin=1800000&amp;spanTime=1800000&amp;endTime=
+</code></pre><ul>
+<li>&#x7ED3;&#x679C;&#xFF1A;</li>
+</ul>
+<pre><code>[
+    {
+        &quot;agentRunId&quot;: 63656,
+        &quot;agentVersion&quot;: &quot;3.2.1&quot;,
+        &quot;apdexScore&quot;: 1,
+        &quot;applicationId&quot;: 2279554,
+        &quot;avgResponseTime&quot;: 0.008786079508692443,
+        &quot;cpm&quot;: 45.36666666666667, //&#x541E;&#x5410;&#x91CF;(call per minutes)
+        &quot;cpuRate&quot;: 0.0009820000113298496,
+        &quot;errorRate&quot;: 0,
+        &quot;hide&quot;: false,
+        &quot;host&quot;: &quot;webapp1.webapp-mysql.local.flyacmeair.net&quot;,
+        &quot;identifier&quot;: &quot;java:Acmeair-webapp:80(webapp1.webapp-mysql.local.flyacmeair.net)&quot;,
+        &quot;memUsed&quot;: 148.09695773654514,
+        &quot;memo&quot;: &quot;;hide:false&quot;,
+        &quot;name&quot;: &quot;java:Acmeair-webapp:80(webapp1.webapp-mysql.local.flyacmeair.net)&quot; //&#x663E;&#x793A;&#x540D;&#x79F0;
+    }
+]
+</code></pre><h3 id="13-web&#x4E8B;&#x52A1;api">1.3 Web&#x4E8B;&#x52A1;API</h3>
+<h4 id="131-&#x54CD;&#x5E94;&#x65F6;&#x95F4;&#x5360;&#x6BD4;">1.3.1 &#x54CD;&#x5E94;&#x65F6;&#x95F4;&#x5360;&#x6BD4;</h4>
+<ul>
+<li>url</li>
+</ul>
+<p><code>/ai/applications/{applicationId}/stats/topn.json</code></p>
+<ul>
+<li>Request Method:</li>
+</ul>
+<p><code>GET</code></p>
+<ul>
+<li>Content-Type:</li>
+</ul>
+<p><code>application/x-www-form-urlencoded</code></p>
+<ul>
+<li>&#x53C2;&#x6570;&#xFF1A;</li>
+</ul>
+<p>spanTime:21600000
+interval:
+type:WebTransaction
+start:0
+limit:20
+orderBy:ORDERBY_S2_DESC
+endTime:</p>
+<p><strong>&#x4F8B;&#x5B50;</strong></p>
+<ul>
+<li>Request URL:</li>
+</ul>
+<pre><code>https://api.oneapm.com/ai/applications/2279554/stats/topn.json?api-key=api-key&#x5185;&#x5BB9;
+&amp;spanTime=21600000&amp;interval=&amp;type=WebTransaction&amp;start=0&amp;limit=20&amp;orderBy=ORDERBY_S2_DESC&amp;endTime=
+</code></pre><ul>
+<li>&#x7ED3;&#x679C;&#xFF1A;</li>
+</ul>
+<pre><code>{
+    &quot;results&quot;: [
+        {
+            &quot;data&quot;: [
+                {
+                    &quot;fields&quot;: {
+                        &quot;result&quot;: [
+                            1606,  //&#x8C03;&#x7528;&#x6B21;&#x6570;
+                            53.30757984519005,  //&#x54CD;&#x5E94;&#x65F6;&#x95F4;&#x603B;&#x548C;
+                            53.30757984519005,  //&#x54CD;&#x5E94;&#x65F6;&#x95F4;&#x603B;&#x548C;
+                            0.02609900012612343,  //&#x6700;&#x5C0F;&#x54CD;&#x5E94;&#x65F6;&#x95F4;
+                            0.07180699706077576,  //&#x6700;&#x5927;&#x54CD;&#x5E94;&#x65F6;&#x95F4;
+                            1.8123899982310832  //&#x54CD;&#x5E94;&#x65F6;&#x95F4;&#x5E73;&#x65B9;&#x548C;
+                        ]
+                    },
+                    &quot;time&quot;: {  //&#x8BE5;&#x6BB5;&#x91C7;&#x6837;&#x65F6;&#x95F4;&#x5185;&#x7684;&#x6570;&#x636E;
+                        &quot;endTime&quot;: 1465203600000,
+                        &quot;startTime&quot;: 1465182000000
+                    }
+                }
+            ],
+            &quot;displayName&quot;: &quot;EJB/Entity/customersession/getId&quot;,
+            &quot;id&quot;: 2428022592,
+            &quot;name&quot;: &quot;WebTransaction/EJB/Entity/customersession/getId&quot;,
+            &quot;title&quot;: &quot;WebTransaction/EJB/Entity/customersession/getId&quot;,
+            &quot;type&quot;: &quot;WebTransaction&quot;
+        },
+        ......  //&#x5176;&#x5B83;Web&#x4E8B;&#x52A1;&#x7684;&#x6570;&#x636E;
+    ],
+    &quot;timeSpan&quot;: {
+        &quot;endTime&quot;: 1465203480000,
+        &quot;startTime&quot;: 1465181880000
+    }
+}
+</code></pre><h4 id="132-&#x5E73;&#x5747;&#x54CD;&#x5E94;&#x65F6;&#x95F4;">1.3.2 &#x5E73;&#x5747;&#x54CD;&#x5E94;&#x65F6;&#x95F4;</h4>
+<ul>
+<li>url</li>
+</ul>
+<p><code>/ai/applications/{applicationId}/stats/topn.json</code></p>
+<ul>
+<li>Request Method:</li>
+</ul>
+<p><code>GET</code></p>
+<ul>
+<li>Content-Type:</li>
+</ul>
+<p><code>application/x-www-form-urlencoded</code></p>
+<ul>
+<li>&#x53C2;&#x6570;&#xFF1A;</li>
+</ul>
+<p>spanTime:21600000
+interval:
+type:WebTransaction
+start:0
+limit:20
+orderBy:ORDERBY_S2_S1_DESC
+endTime:</p>
+<p><strong>&#x4F8B;&#x5B50;</strong></p>
+<ul>
+<li>Request URL:</li>
+</ul>
+<pre><code>https://api.oneapm.com/ai/applications/2279554/stats/topn.json?api-key=api-key&#x5185;&#x5BB9;
+&amp;spanTime=21600000&amp;interval=&amp;type=WebTransaction&amp;start=0
+&amp;limit=20&amp;orderBy=ORDERBY_S2_S1_DESC&amp;endTime=
+</code></pre><ul>
+<li>&#x7ED3;&#x679C;&#xFF1A;&#x540C;&#x4E0A;</li>
+</ul>
+<h4 id="133-&#x6027;&#x80FD;&#x6307;&#x6570;">1.3.3 &#x6027;&#x80FD;&#x6307;&#x6570;</h4>
+<ul>
+<li>url</li>
+</ul>
+<p><code>/ai/applications/{applicationId}/stats/topn.json</code></p>
+<ul>
+<li>Request Method:</li>
+</ul>
+<p><code>GET</code></p>
+<ul>
+<li>Content-Type:</li>
+</ul>
+<p><code>application/x-www-form-urlencoded</code></p>
+<ul>
+<li>&#x53C2;&#x6570;&#xFF1A;</li>
+</ul>
+<p>spanTime:21600000
+interval:
+type:WebTransaction
+fields:Apdex
+start:0
+limit:20
+orderBy:ORDERBY_S4_ASC
+endTime:</p>
+<p><strong>&#x4F8B;&#x5B50;</strong></p>
+<ul>
+<li>Request URL:</li>
+</ul>
+<pre><code>https://api.oneapm.com/ai/applications/2279554/stats/topn.json?api-key=api-key&#x5185;&#x5BB9;
+&amp;spanTime=21600000&amp;interval=&amp;type=WebTransaction&amp;fields=Apdex&amp;start=0
+&amp;limit=20&amp;orderBy=ORDERBY_S4_ASC&amp;endTime=
+</code></pre><ul>
+<li>&#x7ED3;&#x679C;&#xFF1A;</li>
+</ul>
+<pre><code>{
+    &quot;results&quot;: [
+        {
+            &quot;data&quot;: [
+                {
+                    &quot;fields&quot;: {
+                        &quot;Apdex&quot;: [
+                            1606, //&#x6B63;&#x5E38;&#x8C03;&#x7528;&#x6B21;&#x6570;
+                            0,  //&#x53EF;&#x5BB9;&#x5FCD;&#x8C03;&#x7528;&#x6B21;&#x6570;
+                            0,  //&#x4E0D;&#x53EF;&#x5BB9;&#x5FCD;&#x8C03;&#x7528;&#x6B21;&#x6570;
+                            0.5,  //ApdexT
+                            0.5,  //ApdexT
+                            0  //&#x6682;&#x7A7A;
+                        ]
+                    },
+                    &quot;time&quot;: {
+                        &quot;endTime&quot;: 0,
+                        &quot;startTime&quot;: 1465182000000
+                    }
+                },
+                {
+                    &quot;fields&quot;: {
+                        &quot;result&quot;: [
+                            1606,  //&#x8C03;&#x7528;&#x6B21;&#x6570;
+                            53.30757984519005,  //&#x54CD;&#x5E94;&#x65F6;&#x95F4;&#x603B;&#x548C;
+                            53.30757984519005,  //&#x54CD;&#x5E94;&#x65F6;&#x95F4;&#x603B;&#x548C;
+                            0.02609900012612343,  //&#x6700;&#x5C0F;&#x54CD;&#x5E94;&#x65F6;&#x95F4;
+                            0.07180699706077576,  //&#x6700;&#x5927;&#x54CD;&#x5E94;&#x65F6;&#x95F4;
+                            1.8123899982310832  //&#x54CD;&#x5E94;&#x65F6;&#x95F4;&#x5E73;&#x65B9;&#x548C;
+                        ]
+                    },
+                    &quot;time&quot;: {
+                        &quot;endTime&quot;: 1465203600000,
+                        &quot;startTime&quot;: 1465182000000
+                    }
+                }
+            ],
+            &quot;displayName&quot;: &quot;EJB/Entity/customersession/getId&quot;,
+            &quot;id&quot;: 2428022592,
+            &quot;name&quot;: &quot;WebTransaction/EJB/Entity/customersession/getId&quot;,
+            &quot;title&quot;: &quot;WebTransaction/EJB/Entity/customersession/getId&quot;,
+            &quot;type&quot;: &quot;WebTransaction&quot;
+        },
+        ...... //&#x5176;&#x5B83;Web&#x4E8B;&#x52A1;&#x7684;&#x6570;&#x636E;
+    ],
+    &quot;timeSpan&quot;: {
+        &quot;endTime&quot;: 1465203480000,
+        &quot;startTime&quot;: 1465181880000
+    }
+}
+</code></pre><h4 id="134-&#x541E;&#x5410;&#x91CF;">1.3.4 &#x541E;&#x5410;&#x91CF;</h4>
+<ul>
+<li>url</li>
+</ul>
+<p><code>/ai/applications/{applicationId}/stats/topn.json</code></p>
+<ul>
+<li>Request Method:</li>
+</ul>
+<p><code>GET</code></p>
+<ul>
+<li>Content-Type:</li>
+</ul>
+<p><code>application/x-www-form-urlencoded</code></p>
+<ul>
+<li>&#x53C2;&#x6570;&#xFF1A;</li>
+</ul>
+<p>spanTime:21600000
+interval:
+type:WebTransaction
+start:0
+limit:20
+orderBy:ORDERBY_S1_DESC
+endTime:</p>
+<p><strong>&#x4F8B;&#x5B50;</strong></p>
+<ul>
+<li>Request URL:</li>
+</ul>
+<pre><code>https://api.oneapm.com/ai/applications/2279554/stats/topn.json?api-key=api-key&#x5185;&#x5BB9;
+&amp;spanTime=21600000&amp;interval=&amp;type=WebTransaction&amp;start=0
+&amp;limit=20&amp;orderBy=ORDERBY_S1_DESC&amp;endTime=
+</code></pre><ul>
+<li>&#x7ED3;&#x679C;&#xFF1A;</li>
+</ul>
+<pre><code>{
+    &quot;results&quot;: [
+        {
+            &quot;data&quot;: [
+                {
+                    &quot;fields&quot;: {
+                        &quot;result&quot;: [
+                            1284,  //&#x8C03;&#x7528;&#x6B21;&#x6570;
+                            42.55347189307213,  //&#x54CD;&#x5E94;&#x65F6;&#x95F4;&#x603B;&#x548C;
+                            42.55347189307213,  //&#x54CD;&#x5E94;&#x65F6;&#x95F4;&#x603B;&#x548C;
+                            0.026921000331640244,  //&#x6700;&#x5C0F;&#x54CD;&#x5E94;&#x65F6;&#x95F4;
+                            0.07180699706077576,  //&#x6700;&#x5927;&#x54CD;&#x5E94;&#x65F6;&#x95F4;
+                            1.4423809978179634  //&#x54CD;&#x5E94;&#x65F6;&#x95F4;&#x5E73;&#x65B9;&#x548C;
+                        ]
+                    },
+                    &quot;time&quot;: {
+                        &quot;endTime&quot;: 1465203600000,
+                        &quot;startTime&quot;: 1465182000000
+                    }
+                }
+            ],
+            &quot;displayName&quot;: &quot;EJB/Entity/customersession/getId&quot;,
+            &quot;id&quot;: 2428022592,
+            &quot;name&quot;: &quot;WebTransaction/EJB/Entity/customersession/getId&quot;,
+            &quot;title&quot;: &quot;WebTransaction/EJB/Entity/customersession/getId&quot;,
+            &quot;type&quot;: &quot;WebTransaction&quot;
+        }
+        ......  //&#x5176;&#x5B83;Web&#x4E8B;&#x52A1;&#x7684;&#x6570;&#x636E;
+    ],
+    &quot;timeSpan&quot;: {
+        &quot;endTime&quot;: 1465203480000,
+        &quot;startTime&quot;: 1465181880000
+    }
+}
+</code></pre><h4 id="135-top5-web&#x4E8B;&#x52A1;&#x7684;&#x54CD;&#x5E94;&#x65F6;&#x95F4;">1.3.5 Top5 Web&#x4E8B;&#x52A1;&#x7684;&#x54CD;&#x5E94;&#x65F6;&#x95F4;</h4>
+<ul>
+<li>url</li>
+</ul>
+<p><code>/ai/applications/{applicationId}/stats/topn.json</code></p>
+<ul>
+<li>Request Method:</li>
+</ul>
+<p><code>GET</code></p>
+<ul>
+<li>Content-Type:</li>
+</ul>
+<p><code>application/x-www-form-urlencoded</code></p>
+<ul>
+<li>&#x53C2;&#x6570;&#xFF1A;</li>
+</ul>
+<p>agentRunId:63656
+spanTime:21600000
+interval:600000
+type:WebTransaction
+start:0
+limit:5
+orderBy:ORDERBY_S2_S1_DESC
+endTime:</p>
+<p><strong>&#x4F8B;&#x5B50;</strong></p>
+<ul>
+<li>Request URL:</li>
+</ul>
+<pre><code>https://api.oneapm.com/ai/applications/2279554/stats/topn.json?api-key=api-key&#x5185;&#x5BB9;
+&amp;agentRunId=63656&amp;spanTime=21600000&amp;interval=600000
+&amp;type=WebTransaction&amp;start=0&amp;limit=5&amp;orderBy=ORDERBY_S2_S1_DESC&amp;endTime=
+</code></pre><ul>
+<li>&#x7ED3;&#x679C;&#xFF1A;</li>
+</ul>
+<pre><code>{
+    &quot;results&quot;: [
+        {
+            &quot;data&quot;: [
+                {
+                    &quot;fields&quot;: {
+                        &quot;result&quot;: [
+                            52,  //&#x8C03;&#x7528;&#x6B21;&#x6570;
+                            1.6603790074586868,  //&#x54CD;&#x5E94;&#x65F6;&#x95F4;&#x603B;&#x548C;
+                            1.6603790074586868,  //&#x54CD;&#x5E94;&#x65F6;&#x95F4;&#x603B;&#x548C;
+                            0.027338000014424324,  //&#x6700;&#x5C0F;&#x54CD;&#x5E94;&#x65F6;&#x95F4;
+                            0.03795500099658966,  //&#x6700;&#x5927;&#x54CD;&#x5E94;&#x65F6;&#x95F4;
+                            0.053344000363722444  //&#x54CD;&#x5E94;&#x65F6;&#x95F4;&#x5E73;&#x65B9;&#x548C;
+                        ]
+                    },
+                    &quot;time&quot;: { //&#x8BE5;&#x6BB5;&#x91C7;&#x6837;&#x65F6;&#x95F4;&#x5185;&#x7684;&#x6570;&#x636E;
+                        &quot;endTime&quot;: 1465203600000,
+                        &quot;startTime&quot;: 1465203000000
+                    }
+                },
+                ......//&#x5176;&#x5B83;&#x91C7;&#x6837;&#x65F6;&#x95F4;&#x6BB5;&#x5185;&#x7684;&#x6570;&#x636E;
+            ],
+            &quot;displayName&quot;: &quot;EJB/Entity/customersession/getId&quot;,
+            &quot;id&quot;: 2428022592,
+            &quot;name&quot;: &quot;WebTransaction/EJB/Entity/customersession/getId&quot;,
+            &quot;title&quot;: &quot;WebTransaction/EJB/Entity/customersession/getId&quot;,
+            &quot;type&quot;: &quot;WebTransaction&quot;
+        },
+        ...... //&#x5176;&#x5B83;Web&#x4E8B;&#x52A1;&#x7684;&#x6570;&#x636E;
+    ],
+    &quot;timeSpan&quot;: {
+        &quot;endTime&quot;: 1465203480000,
+        &quot;startTime&quot;: 1465181880000
+    }
+}
+</code></pre><h4 id="135-&#x541E;&#x5410;&#x91CF;&#xFF08;&#x6298;&#x7EBF;&#x56FE;&#xFF09;">1.3.5 &#x541E;&#x5410;&#x91CF;&#xFF08;&#x6298;&#x7EBF;&#x56FE;&#xFF09;</h4>
+<ul>
+<li>url</li>
+</ul>
+<p><code>/ai/applications/{applicationId}/stats/detail.json</code></p>
+<ul>
+<li>Request Method:</li>
+</ul>
+<p><code>GET</code></p>
+<ul>
+<li>Content-Type:</li>
+</ul>
+<p><code>application/x-www-form-urlencoded</code></p>
+<ul>
+<li>&#x53C2;&#x6570;&#xFF1A;</li>
+</ul>
+<p>agentRunId:63656
+spanTime:21600000
+interval:600000
+start:0
+limit:5
+name:WebTransaction
+endTime:</p>
+<p><strong>&#x4F8B;&#x5B50;</strong></p>
+<ul>
+<li>Request URL:</li>
+</ul>
+<pre><code>https://api.oneapm.com/ai/applications/2279554/stats/detail.json?api-key=api-key&#x5185;&#x5BB9;
+&amp;agentRunId=63656&amp;spanTime=21600000&amp;interval=600000&amp;start=0&amp;limit=5
+&amp;name=WebTransaction&amp;endTime=
+</code></pre><ul>
+<li>&#x7ED3;&#x679C;&#xFF1A;</li>
+</ul>
+<pre><code>{
+    &quot;results&quot;: [
+        {
+            &quot;data&quot;: [
+                {
+                    &quot;fields&quot;: {
+                        &quot;result&quot;: [
+                            454,
+                            3.9524461030960083,
+                            3.9524461030960083,
+                            0.0030819999519735575,
+                            0.040867000818252563,
+                            0.07299500145018101
+                        ]
+                    },
+                    &quot;time&quot;: { //&#x8BE5;&#x6BB5;&#x65F6;&#x95F4;&#x5185;&#x7684;&#x6570;&#x636E;
+                        &quot;endTime&quot;: 1465203600000,
+                        &quot;startTime&quot;: 1465203000000
+                    }
+                },
+                ...... //&#x5176;&#x5B83;&#x91C7;&#x6837;&#x65F6;&#x95F4;&#x6BB5;&#x5185;&#x7684;&#x6570;&#x636E;
+            ],
+            &quot;displayName&quot;: &quot;WebTransaction&quot;,
+            &quot;id&quot;: 2428022611,
+            &quot;name&quot;: &quot;WebTransaction&quot;,
+            &quot;title&quot;: &quot;WebTransaction&quot;,
+            &quot;type&quot;: &quot;WebTransaction&quot;
+        }
+    ],
+    &quot;timeSpan&quot;: {
+        &quot;endTime&quot;: 1465203480000,
+        &quot;startTime&quot;: 1465181880000
+    }
+}
+</code></pre><h3 id="14-&#x6570;&#x636E;&#x5E93;api">1.4 &#x6570;&#x636E;&#x5E93;API</h3>
+<h4 id="141-&#x5E73;&#x5747;&#x54CD;&#x5E94;&#x65F6;&#x95F4;">1.4.1 &#x5E73;&#x5747;&#x54CD;&#x5E94;&#x65F6;&#x95F4;</h4>
+<ul>
+<li>url</li>
+</ul>
+<p><code>/ai/applications/{applicationId}/stats/topn.json</code></p>
+<ul>
+<li>Request Method:</li>
+</ul>
+<p><code>GET</code></p>
+<ul>
+<li>Content-Type:</li>
+</ul>
+<p><code>application/x-www-form-urlencoded</code></p>
+<ul>
+<li>&#x53C2;&#x6570;&#xFF1A;</li>
+</ul>
+<p>spanTime:21600000
+interval:
+type:Datastore
+start:0
+limit:20
+orderBy:ORDERBY_S2_S1_DESC
+endTime:</p>
+<p><strong>&#x4F8B;&#x5B50;</strong></p>
+<ul>
+<li>Request URL:</li>
+</ul>
+<pre><code>https://api.oneapm.com/ai/applications/2279554/stats/topn.json?api-key=api-key&#x5185;&#x5BB9;
+&amp;spanTime=21600000&amp;interval=&amp;type=Datastore&amp;start=0&amp;limit=20
+&amp;orderBy=ORDERBY_S2_S1_DESC&amp;endTime=
+</code></pre><ul>
+<li>&#x7ED3;&#x679C;&#xFF1A;</li>
+</ul>
+<pre><code>{
+    &quot;results&quot;: [
+        {
+            &quot;data&quot;: [
+                {
+                    &quot;fields&quot;: {
+                        &quot;result&quot;: [
+                            4420,  //&#x8C03;&#x7528;&#x6B21;&#x6570;
+                            2.1211180007085204,  //&#x54CD;&#x5E94;&#x65F6;&#x95F4;&#x603B;&#x548C;
+                            2.1211180007085204,  //&#x54CD;&#x5E94;&#x65F6;&#x95F4;&#x603B;&#x548C;
+                            0.00033400001120753586,  //&#x6700;&#x5C0F;&#x54CD;&#x5E94;&#x65F6;&#x95F4;
+                            0.006529000122100115,  //&#x6700;&#x5927;&#x54CD;&#x5E94;&#x65F6;&#x95F4;
+                            0.001099000010981399  //&#x54CD;&#x5E94;&#x65F6;&#x95F4;&#x5E73;&#x65B9;&#x548C;
+                        ]
+                    },
+                    &quot;time&quot;: {
+                        &quot;endTime&quot;: 1465203600000,
+                        &quot;startTime&quot;: 1465182000000
+                    }
+                }
+            ],
+            &quot;displayName&quot;: &quot;Database customer-select&quot;,
+            &quot;id&quot;: 2428022567,
+            &quot;name&quot;: &quot;Database/customer/select&quot;, //Database/{&#x6570;&#x636E;&#x5E93;&#x8868;&#x540D;}/{&#x6570;&#x636E;&#x5E93;&#x64CD;&#x4F5C;}
+            &quot;title&quot;: &quot;&quot;,
+            &quot;type&quot;: &quot;Database&quot;
+        },
+        ...... //&#x5176;&#x5B83;&#x6570;&#x636E;&#x5E93;&#x7684;&#x64CD;&#x4F5C;&#x7684;&#x6570;&#x636E;
+    ],
+    &quot;timeSpan&quot;: {
+        &quot;endTime&quot;: 1465203480000,
+        &quot;startTime&quot;: 1465181880000
+    }
+}
+</code></pre><h4 id="142-&#x603B;&#x54CD;&#x5E94;&#x65F6;&#x95F4;">1.4.2 &#x603B;&#x54CD;&#x5E94;&#x65F6;&#x95F4;</h4>
+<ul>
+<li>url</li>
+</ul>
+<p><code>/ai/applications/{applicationId}/stats/topn.json</code></p>
+<ul>
+<li>Request Method:</li>
+</ul>
+<p><code>GET</code></p>
+<ul>
+<li>Content-Type:</li>
+</ul>
+<p><code>application/x-www-form-urlencoded</code></p>
+<ul>
+<li>&#x53C2;&#x6570;&#xFF1A;</li>
+</ul>
+<p>spanTime:21600000
+interval:
+type:Datastore
+start:0
+limit:20
+orderBy:ORDERBY_S2_DESC
+endTime:</p>
+<p><strong>&#x4F8B;&#x5B50;</strong></p>
+<ul>
+<li>Request URL:</li>
+</ul>
+<pre><code>https://api.oneapm.com/ai/applications/2279554/stats/topn.json?api-key=api-key&#x5185;&#x5BB9;
+&amp;spanTime=21600000&amp;interval=&amp;type=Datastore&amp;start=0&amp;limit=20
+&amp;orderBy=ORDERBY_S2_DESC&amp;endTime=
+</code></pre><ul>
+<li>&#x7ED3;&#x679C;&#xFF1A;&#x540C;&#x4E0A;</li>
+</ul>
+<h4 id="143-&#x541E;&#x5410;&#x91CF;">1.4.3 &#x541E;&#x5410;&#x91CF;</h4>
+<ul>
+<li>url</li>
+</ul>
+<p><code>/ai/applications/{applicationId}/stats/topn.json</code></p>
+<ul>
+<li>Request Method:</li>
+</ul>
+<p><code>GET</code></p>
+<ul>
+<li>Content-Type:</li>
+</ul>
+<p><code>application/x-www-form-urlencoded</code></p>
+<ul>
+<li>&#x53C2;&#x6570;&#xFF1A;</li>
+</ul>
+<p>spanTime:21600000
+interval:
+type:Datastore
+start:0
+limit:20
+orderBy:ORDERBY_S1_S2_DESC
+endTime:</p>
+<p><strong>&#x4F8B;&#x5B50;</strong></p>
+<ul>
+<li>Request URL:</li>
+</ul>
+<pre><code>https://api.oneapm.com/ai/applications/2279554/stats/topn.json?api-key=api-key&#x5185;&#x5BB9;
+&amp;spanTime=21600000&amp;interval=&amp;type=Datastore&amp;start=0&amp;limit=20
+&amp;orderBy=ORDERBY_S1_S2_DESC&amp;endTime=
+</code></pre><ul>
+<li>&#x7ED3;&#x679C;&#xFF1A;&#x540C;&#x4E0A;</li>
+</ul>
+<h4 id="144-&#x54CD;&#x5E94;&#x65F6;&#x95F4;&#xFF08;&#x6298;&#x7EBF;&#x56FE;&#xFF09;">1.4.4 &#x54CD;&#x5E94;&#x65F6;&#x95F4;&#xFF08;&#x6298;&#x7EBF;&#x56FE;&#xFF09;</h4>
+<ul>
+<li>url</li>
+</ul>
+<p><code>/ai/applications/{applicationId}/stats/topn.json</code></p>
+<ul>
+<li>Request Method:</li>
+</ul>
+<p><code>GET</code></p>
+<ul>
+<li>Content-Type:</li>
+</ul>
+<p><code>application/x-www-form-urlencoded</code></p>
+<ul>
+<li>&#x53C2;&#x6570;&#xFF1A;</li>
+</ul>
+<p>spanTime:1800000
+interval:60000
+type:Datastore
+start:0
+limit:5
+orderBy:ORDERBY_S2_S1_DESC
+endTime:</p>
+<p><strong>&#x4F8B;&#x5B50;</strong></p>
+<ul>
+<li>Request URL:</li>
+</ul>
+<pre><code>https://api.oneapm.com/ai/applications/2279554/stats/topn.json?api-key=api-key&#x5185;&#x5BB9;
+&amp;spanTime=1800000&amp;interval=60000&amp;type=Datastore&amp;start=0
+&amp;limit=5&amp;orderBy=ORDERBY_S2_S1_DESC&amp;endTime=
+</code></pre><ul>
+<li>&#x7ED3;&#x679C;&#xFF1A;</li>
+</ul>
+<pre><code>{
+    &quot;results&quot;: [
+        {
+            &quot;data&quot;: [
+                {
+                    &quot;fields&quot;: {
+                        &quot;result&quot;: [
+                            15,  //&#x8C03;&#x7528;&#x6B21;&#x6570;
+                            0.006845000199973583,  //&#x54CD;&#x5E94;&#x65F6;&#x95F4;&#x603B;&#x548C;
+                            0.006845000199973583,  //&#x6267;&#x884C;&#x65F6;&#x95F4;
+                            0.0003480000013951212,  //&#x6700;&#x5C0F;&#x54CD;&#x5E94;&#x65F6;&#x95F4;
+                            0.000598000013269484,  //&#x6700;&#x5927;&#x54CD;&#x5E94;&#x65F6;&#x95F4;
+                            0.000003000000106112566  //&#x54CD;&#x5E94;&#x65F6;&#x95F4;&#x5E73;&#x65B9;&#x548C;
+                        ]
+                    },
+                    &quot;time&quot;: { //&#x8BE5;&#x6BB5;&#x91C7;&#x6837;&#x65F6;&#x95F4;&#x5185;&#x7684;&#x6570;&#x636E;
+                        &quot;endTime&quot;: 1465374600000,
+                        &quot;startTime&quot;: 1465374540000
+                    }
+                },
+                ...... //&#x5176;&#x5B83;&#x91C7;&#x6837;&#x65F6;&#x95F4;&#x6BB5;&#x5185;&#x7684;&#x6570;&#x636E;
+            ],
+            &quot;displayName&quot;: &quot;Database customer-select&quot;,
+            &quot;id&quot;: 2428022567,
+            &quot;name&quot;: &quot;Database/customer/select&quot;, //Database/{&#x6570;&#x636E;&#x5E93;&#x8868;&#x540D;}/{&#x6570;&#x636E;&#x5E93;&#x64CD;&#x4F5C;}
+            &quot;title&quot;: &quot;&quot;,
+            &quot;type&quot;: &quot;Database&quot;
+        }
+        ...... //&#x5176;&#x5B83;&#x6570;&#x636E;&#x5E93;&#x8868;&#x7684;&#x6570;&#x636E;&#x5E93;&#x64CD;&#x4F5C;&#x7684;&#x6570;&#x636E;
+    ],
+    &quot;timeSpan&quot;: {
+        &quot;endTime&quot;: 1465374637999,
+        &quot;startTime&quot;: 1465372837999
+    }
+}
+</code></pre><h4 id="145-&#x541E;&#x5410;&#x91CF;&#xFF08;&#x6298;&#x7EBF;&#x56FE;&#xFF09;">1.4.5 &#x541E;&#x5410;&#x91CF;&#xFF08;&#x6298;&#x7EBF;&#x56FE;&#xFF09;</h4>
+<ul>
+<li>url</li>
+</ul>
+<p><code>/ai/applications/{applicationId}/stats/topn.json</code></p>
+<ul>
+<li>Request Method:</li>
+</ul>
+<p><code>GET</code></p>
+<ul>
+<li>Content-Type:</li>
+</ul>
+<p><code>application/x-www-form-urlencoded</code></p>
+<ul>
+<li>&#x53C2;&#x6570;&#xFF1A;</li>
+</ul>
+<p>spanTime:1800000
+interval:60000
+type:Datastore
+start:0
+limit:5
+orderBy:ORDERBY_S1_S2_DESC
+endTime:</p>
+<p><strong>&#x4F8B;&#x5B50;</strong></p>
+<ul>
+<li>Request URL:</li>
+</ul>
+<pre><code>https://api.oneapm.com/ai/applications/2279554/stats/topn.json?api-key=api-key&#x5185;&#x5BB9;
+&amp;spanTime=1800000&amp;interval=60000&amp;type=Datastore&amp;start=0
+&amp;limit=5&amp;orderBy=ORDERBY_S1_S2_DESC&amp;endTime=
+</code></pre><ul>
+<li>&#x7ED3;&#x679C;&#xFF1A;&#x540C;&#x4E0A;</li>
+</ul>
+<h3 id="15-&#x5916;&#x90E8;&#x670D;&#x52A1;api">1.5 &#x5916;&#x90E8;&#x670D;&#x52A1;API</h3>
+<h4 id="151-&#x5E73;&#x5747;&#x54CD;&#x5E94;&#x65F6;&#x95F4;">1.5.1 &#x5E73;&#x5747;&#x54CD;&#x5E94;&#x65F6;&#x95F4;</h4>
+<ul>
+<li>url</li>
+</ul>
+<p><code>/ai/applications/{applicationId}/stats/topn.json</code></p>
+<ul>
+<li>Request Method:</li>
+</ul>
+<p><code>GET</code></p>
+<ul>
+<li>Content-Type:</li>
+</ul>
+<p><code>application/x-www-form-urlencoded</code></p>
+<ul>
+<li>&#x53C2;&#x6570;&#xFF1A;</li>
+</ul>
+<p>spanTime:21600000
+interval:
+type:External
+start:0
+limit:20
+orderBy:ORDERBY_S2_S1_DESC
+endTime:</p>
+<p><strong>&#x4F8B;&#x5B50;</strong></p>
+<ul>
+<li>Request URL:</li>
+</ul>
+<pre><code>https://api.oneapm.com/ai/applications/2279554/stats/topn.json?api-key=api-key&#x5185;&#x5BB9;
+&amp;spanTime=21600000&amp;interval=&amp;type=External&amp;start=0&amp;limit=20
+&amp;orderBy=ORDERBY_S2_S1_DESC&amp;endTime=
+</code></pre><ul>
+<li>&#x7ED3;&#x679C;&#xFF1A;</li>
+</ul>
+<pre><code>{
+    &quot;results&quot;: [
+        {
+            &quot;data&quot;: [
+                {
+                    &quot;fields&quot;: {
+                        &quot;result&quot;: [
+                            3860,  // &#x8C03;&#x7528;&#x6B21;&#x6570;
+                            53.989871092140675,  // &#x54CD;&#x5E94;&#x65F6;&#x95F4;&#x603B;&#x548C;
+                            53.989871092140675,  // &#x6267;&#x884C;&#x65F6;&#x95F4;
+                            0.0035260000731796026,  //&#x6700;&#x5C0F;&#x54CD;&#x5E94;&#x65F6;&#x95F4;
+                            0.06016800180077553,  //&#x6700;&#x5927;&#x54CD;&#x5E94;&#x65F6;&#x95F4;
+                            1.0994140019174665  //&#x54CD;&#x5E94;&#x65F6;&#x95F4;&#x5E73;&#x65B9;&#x548C;
+                        ]
+                    },
+                    &quot;time&quot;: {
+                        &quot;endTime&quot;: 1465203600000,
+                        &quot;startTime&quot;: 1465182000000
+                    }
+                }
+            ],
+            &quot;displayName&quot;: &quot;auth1.auth-service-mysql.local.flyacmeair.net/all&quot;,
+            &quot;id&quot;: 2428022621,
+            &quot;name&quot;: &quot;External/auth1.auth-service-mysql.local.flyacmeair.net/all&quot;, //&#x6240;&#x6709;&#x5230;&#x76EE;&#x6807;&#x4E3B;&#x673A;&#x5730;&#x5740;&#x7684;&#x5916;&#x90E8;&#x8BF7;&#x6C42;&#x603B;&#x548C;
+            &quot;title&quot;: &quot;External/auth1.auth-service-mysql.local.flyacmeair.net&quot;,
+            &quot;type&quot;: &quot;External&quot;
+        }
+    ],
+    &quot;timeSpan&quot;: {
+        &quot;endTime&quot;: 1465203480000,
+        &quot;startTime&quot;: 1465181880000
+    }
+}
+</code></pre><h4 id="152-&#x541E;&#x5410;&#x91CF;">1.5.2 &#x541E;&#x5410;&#x91CF;</h4>
+<ul>
+<li>url</li>
+</ul>
+<p><code>/ai/applications/{applicationId}/stats/topn.json</code></p>
+<ul>
+<li>Request Method:</li>
+</ul>
+<p><code>GET</code></p>
+<ul>
+<li>Content-Type:</li>
+</ul>
+<p><code>application/x-www-form-urlencoded</code></p>
+<ul>
+<li>&#x53C2;&#x6570;&#xFF1A;</li>
+</ul>
+<p>type:External
+orderBy:ORDERBY_S1_DESC</p>
+<p><strong>&#x4F8B;&#x5B50;</strong></p>
+<ul>
+<li>Request URL:</li>
+</ul>
+<pre><code>https://api.oneapm.com/ai/applications/2279554/stats/topn.json?api-key=api-key&#x5185;&#x5BB9;
+&amp;spanTime=21600000&amp;interval=&amp;type=External&amp;start=0&amp;limit=20
+&amp;orderBy=ORDERBY_S1_DESC&amp;endTime=1465203600000
+</code></pre><ul>
+<li>&#x7ED3;&#x679C;&#xFF1A; &#x540C;&#x4E0A;</li>
+</ul>
+<h4 id="153-top5-&#x5916;&#x90E8;&#x670D;&#x52A1;&#x7684;&#x54CD;&#x5E94;&#x65F6;&#x95F4;"><h4 id="1.5.3">1.5.3 Top5 &#x5916;&#x90E8;&#x670D;&#x52A1;&#x7684;&#x54CD;&#x5E94;&#x65F6;&#x95F4;</h4></h4>
+<ul>
+<li>url</li>
+</ul>
+<p><code>/ai/applications/{applicationId}/stats/topn.json</code></p>
+<ul>
+<li>Request Method:</li>
+</ul>
+<p><code>GET</code></p>
+<ul>
+<li>Content-Type:</li>
+</ul>
+<p><code>application/x-www-form-urlencoded</code></p>
+<ul>
+<li>&#x53C2;&#x6570;&#xFF1A;</li>
+</ul>
+<p>spanTime:1800000
+interval:60000
+type:External
+start:0
+limit:5
+endTime:</p>
+<p><strong>&#x4F8B;&#x5B50;</strong></p>
+<ul>
+<li>Request URL:</li>
+</ul>
+<pre><code>https://api.oneapm.com/ai/applications/2279554/stats/topn.json?api-key=api-key&#x5185;&#x5BB9;
+&amp;spanTime=1800000&amp;interval=60000&amp;type=External&amp;start=0&amp;limit=5&amp;endTime=
+</code></pre><ul>
+<li>&#x7ED3;&#x679C;&#xFF1A; </li>
+</ul>
+<pre><code>{
+    &quot;results&quot;: [
+        {
+            &quot;data&quot;: [
+                {
+                    &quot;fields&quot;: {
+                        &quot;result&quot;: [
+                            8,  //&#x8C03;&#x7528;&#x6B21;&#x6570;
+                            0.10915900021791458,  //&#x54CD;&#x5E94;&#x65F6;&#x95F4;&#x603B;&#x548C;
+                            0.10915900021791458,  //&#x6267;&#x884C;&#x65F6;&#x95F4;
+                            0.004902999848127365,  //&#x6700;&#x5C0F;&#x54CD;&#x5E94;&#x65F6;&#x95F4;
+                            0.02677999995648861,  //&#x6700;&#x5927;&#x54CD;&#x5E94;&#x65F6;&#x95F4;
+                            0.002090000081807375  //&#x54CD;&#x5E94;&#x65F6;&#x95F4;&#x5E73;&#x65B9;&#x548C;
+                        ]
+                    },
+                    &quot;time&quot;: {  //&#x8BE5;&#x6BB5;&#x91C7;&#x6837;&#x65F6;&#x95F4;&#x5185;&#x7684;&#x6570;&#x636E;
+                        &quot;endTime&quot;: 1465376520000,
+                        &quot;startTime&quot;: 1465376460000
+                    }
+                },
+                ...... //&#x5176;&#x5B83;&#x91C7;&#x6837;&#x65F6;&#x95F4;&#x6BB5;&#x5185;&#x7684;&#x6570;&#x636E;
+            ],
+            &quot;displayName&quot;: &quot;auth1.auth-service-mysql.local.flyacmeair.net/all&quot;,
+            &quot;id&quot;: 2428022621,
+            &quot;name&quot;: &quot;External/auth1.auth-service-mysql.local.flyacmeair.net/all&quot;, //&#x6240;&#x6709;&#x5230;&#x76EE;&#x6807;&#x4E3B;&#x673A;&#x5730;&#x5740;&#x7684;&#x5916;&#x90E8;&#x8BF7;&#x6C42;&#x603B;&#x548C;
+            &quot;title&quot;: &quot;External/auth1.auth-service-mysql.local.flyacmeair.net&quot;,
+            &quot;type&quot;: &quot;External&quot;
+        }
+    ],
+    &quot;timeSpan&quot;: {
+        &quot;endTime&quot;: 1465376556543,
+        &quot;startTime&quot;: 1465374756543
+    }
+}
+</code></pre><h4 id="154-&#x541E;&#x5410;&#x91CF;&#xFF08;&#x6298;&#x7EBF;&#x56FE;&#xFF09;">1.5.4 &#x541E;&#x5410;&#x91CF;&#xFF08;&#x6298;&#x7EBF;&#x56FE;&#xFF09;</h4>
+<p>&#x540C;<a href="#1.5.3">Top5 &#x5916;&#x90E8;&#x670D;&#x52A1;&#x7684;&#x54CD;&#x5E94;&#x65F6;&#x95F4;</a></p>
+<h3 id="16-&#x540E;&#x53F0;&#x4EFB;&#x52A1;api">1.6 &#x540E;&#x53F0;&#x4EFB;&#x52A1;API</h3>
+<h4 id="161-&#x5E73;&#x5747;&#x54CD;&#x5E94;&#x65F6;&#x95F4;">1.6.1 &#x5E73;&#x5747;&#x54CD;&#x5E94;&#x65F6;&#x95F4;</h4>
+<ul>
+<li>url</li>
+</ul>
+<p><code>/ai/applications/{applicationId}/stats/topn.json</code></p>
+<ul>
+<li>Request Method:</li>
+</ul>
+<p><code>GET</code></p>
+<ul>
+<li>Content-Type:</li>
+</ul>
+<p><code>application/x-www-form-urlencoded</code></p>
+<ul>
+<li>&#x53C2;&#x6570;&#xFF1A;</li>
+</ul>
+<p>spanTime:1800000
+interval:
+type:OtherTransaction
+start:0
+limit:20
+orderBy:ORDERBY_S2_S1_DESC
+endTime:</p>
+<p><strong>&#x4F8B;&#x5B50;</strong></p>
+<ul>
+<li>Request URL:</li>
+</ul>
+<pre><code>https://api.oneapm.com/ai/applications/2283633/stats/topn.json?api-key=api-key&#x5185;&#x5BB9;
+&amp;spanTime=1800000&amp;interval=&amp;type=OtherTransaction&amp;start=0
+&amp;limit=20&amp;orderBy=ORDERBY_S2_S1_DESC&amp;endTime=
+</code></pre><ul>
+<li>&#x7ED3;&#x679C;&#xFF1A;</li>
+</ul>
+<pre><code>{
+    &quot;results&quot;: [
+        {
+            &quot;data&quot;: [
+                {
+                    &quot;fields&quot;: {
+                        &quot;result&quot;: [
+                            5,  //&#x8C03;&#x7528;&#x6B21;&#x6570;
+                            0.012357000261545181,  //&#x54CD;&#x5E94;&#x65F6;&#x95F4;&#x603B;&#x548C;
+                            0,  //&#x6682;&#x7A7A;
+                            0.00007000000186963007,  //&#x6700;&#x5C0F;&#x54CD;&#x5E94;&#x65F6;&#x95F4;
+                            0.009735999628901482,  //&#x6700;&#x5927;&#x54CD;&#x5E94;&#x65F6;&#x95F4;
+                            0.000097999996796716  //&#x54CD;&#x5E94;&#x65F6;&#x95F4;&#x5E73;&#x65B9;&#x548C;
+                        ]
+                    },
+                    &quot;time&quot;: {
+                        &quot;endTime&quot;: 1465700520000,
+                        &quot;startTime&quot;: 1465698720000
+                    }
+                }
+            ],
+            &quot;displayName&quot;: &quot;org.apache.catalina.servlets.DefaultServlet/init&quot;,
+            &quot;id&quot;: 2872134663,
+            &quot;name&quot;: &quot;OtherTransaction/Java/org.apache.catalina.servlets.DefaultServlet/init&quot;,
+            &quot;title&quot;: &quot;&quot;,
+            &quot;type&quot;: &quot;OtherTransaction&quot;
+        },
+        ...... //&#x5176;&#x5B83;&#x540E;&#x53F0;&#x4EFB;&#x52A1;&#x7684;&#x6570;&#x636E;
+    ],
+    &quot;timeSpan&quot;: {
+        &quot;endTime&quot;: 1465700540060,
+        &quot;startTime&quot;: 1465698740060
+    }
+}
+</code></pre><h4 id="162-&#x6027;&#x80FD;&#x6307;&#x6570;">1.6.2 &#x6027;&#x80FD;&#x6307;&#x6570;</h4>
+<ul>
+<li>url</li>
+</ul>
+<p><code>/ai/applications/{applicationId}/stats/topn.json</code></p>
+<ul>
+<li>Request Method:</li>
+</ul>
+<p><code>GET</code></p>
+<ul>
+<li>Content-Type:</li>
+</ul>
+<p><code>application/x-www-form-urlencoded</code></p>
+<ul>
+<li>&#x53C2;&#x6570;&#xFF1A;</li>
+</ul>
+<p>spanTime:3600000
+interval:
+type:OtherTransaction
+fields:Apdex
+start:0
+limit:20
+orderBy:ORDERBY_S4_ASC
+endTime:</p>
+<p><strong>&#x4F8B;&#x5B50;</strong></p>
+<ul>
+<li>Request URL:</li>
+</ul>
+<pre><code>https://api.oneapm.com/ai/applications/2283633/stats/topn.json?api-key=api-key&#x5185;&#x5BB9;
+&amp;spanTime=3600000&amp;interval=&amp;type=OtherTransaction
+&amp;fields=Apdex&amp;start=0&amp;limit=20&amp;orderBy=ORDERBY_S4_ASC&amp;endTime=
+</code></pre><ul>
+<li>&#x7ED3;&#x679C;&#xFF1A;&#x540C;&#x4E0A;</li>
+</ul>
+<h4 id="163-&#x541E;&#x5410;&#x91CF;">1.6.3 &#x541E;&#x5410;&#x91CF;</h4>
+<ul>
+<li>url</li>
+</ul>
+<p><code>/ai/applications/{applicationId}/stats/topn.json</code></p>
+<ul>
+<li>Request Method:</li>
+</ul>
+<p><code>GET</code></p>
+<ul>
+<li>Content-Type:</li>
+</ul>
+<p><code>application/x-www-form-urlencoded</code></p>
+<ul>
+<li>&#x53C2;&#x6570;&#xFF1A;</li>
+</ul>
+<p>spanTime:3600000
+interval:
+type:OtherTransaction
+start:0
+limit:20
+orderBy:ORDERBY_S1_DESC
+endTime:</p>
+<p><strong>&#x4F8B;&#x5B50;</strong></p>
+<ul>
+<li>Request URL:</li>
+</ul>
+<pre><code>https://api.oneapm.com/ai/applications/2283633/stats/topn.json?api-key=api-key&#x5185;&#x5BB9;
+&amp;spanTime=3600000&amp;interval=&amp;type=OtherTransaction&amp;start=0
+&amp;limit=20&amp;orderBy=ORDERBY_S1_DESC&amp;endTime=
+</code></pre><ul>
+<li>&#x7ED3;&#x679C;&#xFF1A;&#x540C;&#x4E0A;</li>
+</ul>
+<h4 id="164-&#x54CD;&#x5E94;&#x65F6;&#x95F4;&#x5360;&#x6BD4;">1.6.4 &#x54CD;&#x5E94;&#x65F6;&#x95F4;&#x5360;&#x6BD4;</h4>
+<ul>
+<li>url</li>
+</ul>
+<p><code>/ai/applications/{applicationId}/stats/topn.json</code></p>
+<ul>
+<li>Request Method:</li>
+</ul>
+<p><code>GET</code></p>
+<ul>
+<li>Content-Type:</li>
+</ul>
+<p><code>application/x-www-form-urlencoded</code></p>
+<ul>
+<li>&#x53C2;&#x6570;&#xFF1A;</li>
+</ul>
+<p>spanTime:3600000
+interval:
+type:OtherTransaction
+start:0
+limit:20
+orderBy:ORDERBY_S2_DESC
+endTime:</p>
+<p><strong>&#x4F8B;&#x5B50;</strong></p>
+<ul>
+<li>Request URL:</li>
+</ul>
+<pre><code>https://api.oneapm.com/ai/applications/2283633/stats/topn.json?api-key=api-key&#x5185;&#x5BB9;
+&amp;spanTime=3600000&amp;interval=&amp;type=OtherTransaction&amp;start=0
+&amp;limit=20&amp;orderBy=ORDERBY_S2_DESC&amp;endTime=
+</code></pre><ul>
+<li>&#x7ED3;&#x679C;&#xFF1A;&#x540C;&#x4E0A;</li>
+</ul>
+<h4 id="165-top5&#x540E;&#x53F0;&#x4EFB;&#x52A1;&#x7684;&#x54CD;&#x5E94;&#x65F6;&#x95F4;">1.6.5 Top5&#x540E;&#x53F0;&#x4EFB;&#x52A1;&#x7684;&#x54CD;&#x5E94;&#x65F6;&#x95F4;</h4>
+<ul>
+<li>url</li>
+</ul>
+<p><code>/ai/applications/{applicationId}/stats/topn.json</code></p>
+<ul>
+<li>Request Method:</li>
+</ul>
+<p><code>GET</code></p>
+<ul>
+<li>Content-Type:</li>
+</ul>
+<p><code>application/x-www-form-urlencoded</code></p>
+<ul>
+<li>&#x53C2;&#x6570;&#xFF1A;</li>
+</ul>
+<p>spanTime:1800000
+interval:60000
+type:OtherTransaction
+start:0
+limit:5
+orderBy:ORDERBY_S2_S1_DESC
+endTime:</p>
+<p><strong>&#x4F8B;&#x5B50;</strong></p>
+<ul>
+<li>Request URL:</li>
+</ul>
+<pre><code>https://api.oneapm.com/ai/applications/2283633/stats/topn.json?api-key=api-key&#x5185;&#x5BB9;
+&amp;spanTime=1800000&amp;interval=60000&amp;type=OtherTransaction&amp;start=0
+&amp;limit=5&amp;orderBy=ORDERBY_S2_S1_DESC&amp;endTime=
+</code></pre><ul>
+<li>&#x7ED3;&#x679C;&#xFF1A;</li>
+</ul>
+<pre><code>{
+    &quot;results&quot;: [
+        {
+            &quot;data&quot;: [
+                {
+                    &quot;fields&quot;: {
+                        &quot;result&quot;: [
+                            5,  //&#x8C03;&#x7528;&#x6B21;&#x6570;
+                            0.012357000261545181,  //&#x54CD;&#x5E94;&#x65F6;&#x95F4;&#x603B;&#x548C;
+                            0,  //&#x6682;&#x7A7A;
+                            0.00007000000186963007,  //&#x6700;&#x5C0F;&#x54CD;&#x5E94;&#x65F6;&#x95F4;
+                            0.009735999628901482,  //&#x6700;&#x5927;&#x54CD;&#x5E94;&#x65F6;&#x95F4;
+                            0.000097999996796716  //&#x54CD;&#x5E94;&#x65F6;&#x95F4;&#x5E73;&#x65B9;&#x548C;
+                        ]
+                    },
+                    &quot;time&quot;: {  //&#x8BE5;&#x6BB5;&#x91C7;&#x6837;&#x65F6;&#x95F4;&#x5185;&#x7684;&#x6570;&#x636E;
+                        &quot;endTime&quot;: 1465699620000,
+                        &quot;startTime&quot;: 1465699560000
+                    }
+                },
+                ...... //&#x5176;&#x5B83;&#x91C7;&#x6837;&#x65F6;&#x95F4;&#x6BB5;&#x5185;&#x7684;&#x6570;&#x636E;
+            ],
+            &quot;displayName&quot;: &quot;org.apache.catalina.servlets.DefaultServlet/init&quot;,
+            &quot;id&quot;: 2872134663,
+            &quot;name&quot;: &quot;OtherTransaction/Java/org.apache.catalina.servlets.DefaultServlet/init&quot;,
+            &quot;title&quot;: &quot;&quot;,
+            &quot;type&quot;: &quot;OtherTransaction&quot;
+        },
+        ...... //&#x5176;&#x5B83;&#x540E;&#x53F0;&#x4EFB;&#x52A1;&#x7684;&#x6570;&#x636E;
+    ],
+    &quot;timeSpan&quot;: {
+        &quot;endTime&quot;: 1465700086054,
+        &quot;startTime&quot;: 1465698286054
+    }
+}
+</code></pre><h4 id="166-&#x541E;&#x5410;&#x91CF;&#xFF08;&#x6298;&#x7EBF;&#x56FE;&#xFF09;">1.6.6 &#x541E;&#x5410;&#x91CF;&#xFF08;&#x6298;&#x7EBF;&#x56FE;&#xFF09;</h4>
+<ul>
+<li>url</li>
+</ul>
+<p><code>/ai/applications/{applicationId}/stats/topn.json</code></p>
+<ul>
+<li>Request Method:</li>
+</ul>
+<p><code>GET</code></p>
+<ul>
+<li>Content-Type:</li>
+</ul>
+<p><code>application/x-www-form-urlencoded</code></p>
+<ul>
+<li>&#x53C2;&#x6570;&#xFF1A;</li>
+</ul>
+<p>spanTime:1800000
+interval:60000
+type:OtherTransaction
+start:0
+limit:5
+orderBy:ORDERBY_S1_DESC
+endTime:</p>
+<p><strong>&#x4F8B;&#x5B50;</strong></p>
+<ul>
+<li>Request URL:</li>
+</ul>
+<pre><code>https://api.oneapm.com/ai/applications/2283633/stats/topn.json?api-key=api-key&#x5185;&#x5BB9;
+&amp;spanTime=1800000&amp;interval=60000&amp;type=OtherTransaction&amp;start=0&amp;limit=5
+&amp;orderBy=ORDERBY_S1_DESC&amp;endTime=
+</code></pre><ul>
+<li>&#x7ED3;&#x679C;&#xFF1A;&#x540C;&#x4E0A;</li>
+</ul>
+<h4 id="167-cpu&#x4F7F;&#x7528;&#x7387;">1.6.7 CPU&#x4F7F;&#x7528;&#x7387;</h4>
+<ul>
+<li>url</li>
+</ul>
+<p><code>/ai/applications/{applicationId}/stats/detail.json</code></p>
+<ul>
+<li>Request Method:</li>
+</ul>
+<p><code>GET</code></p>
+<ul>
+<li>Content-Type:</li>
+</ul>
+<p><code>application/x-www-form-urlencoded</code></p>
+<ul>
+<li>&#x53C2;&#x6570;&#xFF1A;</li>
+</ul>
+<p>spanTime:21600000
+interval:600000
+start:0
+limit:5
+orderBy:ORDERBY_S1_DESC
+name:CPU
+endTime:</p>
+<p><strong>&#x4F8B;&#x5B50;</strong></p>
+<ul>
+<li>Request URL:</li>
+</ul>
+<pre><code>https://api.oneapm.com/ai/applications/2279556/stats/detail.json?api-key=api-key&#x5185;&#x5BB9;
+&amp;spanTime=21600000&amp;interval=600000&amp;start=0&amp;limit=5&amp;orderBy=ORDERBY_S1_DESC
+&amp;name=CPU&amp;endTime=
+</code></pre><ul>
+<li>&#x7ED3;&#x679C;&#xFF1A;</li>
+</ul>
+<pre><code>{
+    &quot;results&quot;: [
+        {
+            &quot;data&quot;: [
+                {
+                    &quot;fields&quot;: {
+                        &quot;result&quot;: [
+                            10,  //&#x91C7;&#x6837;&#x6B21;&#x6570;
+                            0.010583000024780631,  //&#x91C7;&#x6837;&#x503C;&#x603B;&#x548C;
+                            0.010583000024780631,  //&#x91C7;&#x6837;&#x503C;&#x603B;&#x548C;
+                            0.0010189999593421817,  //&#x91C7;&#x6837;&#x4E2D;&#x7684;&#x6700;&#x5C0F;&#x503C;
+                            0.0011070000473409891,  //&#x91C7;&#x6837;&#x4E2D;&#x7684;&#x6700;&#x5927;&#x503C;
+                            0.000009999999974752427  //&#x91C7;&#x6837;&#x7ED3;&#x679C;&#x7684;&#x5E73;&#x65B9;&#x548C;
+                        ]
+                    },
+                    &quot;time&quot;: {  //&#x8BE5;&#x6BB5;&#x91C7;&#x6837;&#x65F6;&#x95F4;&#x5185;&#x7684;&#x6570;&#x636E;
+                        &quot;endTime&quot;: 1465182600000,
+                        &quot;startTime&quot;: 1465182000000
+                    }
+                },
+                ...... //&#x5176;&#x5B83;&#x91C7;&#x6837;&#x65F6;&#x95F4;&#x6BB5;&#x5185;&#x7684;&#x6570;&#x636E;
+            ],
+            &quot;displayName&quot;: &quot;User/Utilization&quot;,
+            &quot;id&quot;: 2428017207,
+            &quot;name&quot;: &quot;CPU/User/Utilization&quot;,  //CPU&#x5229;&#x7528;&#x7387;
+            &quot;type&quot;: &quot;CPU&quot;
+        }
+    ],
+    &quot;timeSpan&quot;: {
+        &quot;endTime&quot;: 1465203480000,
+        &quot;startTime&quot;: 1465181880000
+    }
+}
+</code></pre><h4 id="168-&#x5185;&#x5B58;&#x4F7F;&#x7528;&#x60C5;&#x51B5;">1.6.8 &#x5185;&#x5B58;&#x4F7F;&#x7528;&#x60C5;&#x51B5;</h4>
+<ul>
+<li>url</li>
+</ul>
+<p><code>/ai/applications/{applicationId}/stats/detail.json</code></p>
+<ul>
+<li>Request Method:</li>
+</ul>
+<p><code>GET</code></p>
+<ul>
+<li>Content-Type:</li>
+</ul>
+<p><code>application/x-www-form-urlencoded</code></p>
+<ul>
+<li>&#x53C2;&#x6570;&#xFF1A;</li>
+</ul>
+<p>spanTime:21600000
+interval:600000
+start:0
+limit:5
+orderBy:ORDERBY_S1_DESC
+name:MemoryUsed
+endTime:</p>
+<p><strong>&#x4F8B;&#x5B50;</strong></p>
+<ul>
+<li>Request URL:</li>
+</ul>
+<pre><code>https://api.oneapm.com/ai/applications/2279556/stats/detail.json?api-key=api-key&#x5185;&#x5BB9;
+&amp;spanTime=21600000&amp;interval=600000&amp;start=0&amp;limit=5
+&amp;orderBy=ORDERBY_S1_DESC&amp;name=MemoryUsed&amp;endTime=
+</code></pre><ul>
+<li>&#x7ED3;&#x679C;&#xFF1A;</li>
+</ul>
+<pre><code>{
+    &quot;results&quot;: [
+        {
+            &quot;data&quot;: [
+                {
+                    &quot;fields&quot;: {
+                        &quot;result&quot;: [
+                            120,  //&#x91C7;&#x6837;&#x6B21;&#x6570;
+                            16439.0947265625,  //&#x91C7;&#x6837;&#x503C;&#x603B;&#x548C;
+                            16439.0947265625,  //&#x91C7;&#x6837;&#x503C;&#x603B;&#x548C;
+                            127.20303344726562,  //&#x91C7;&#x6837;&#x4E2D;&#x7684;&#x6700;&#x5C0F;&#x503C;
+                            146.8770751953125,  //&#x91C7;&#x6837;&#x4E2D;&#x7684;&#x6700;&#x5927;&#x503C;
+                            2255517.5  //&#x91C7;&#x6837;&#x7ED3;&#x679C;&#x7684;&#x5E73;&#x65B9;&#x548C;
+                        ]
+                    },
+                    &quot;time&quot;: { //&#x8BE5;&#x6BB5;&#x91C7;&#x6837;&#x65F6;&#x95F4;&#x5185;&#x7684;&#x6570;&#x636E;
+                        &quot;endTime&quot;: 1465182600000,
+                        &quot;startTime&quot;: 1465182000000
+                    }
+                },
+                ...... //&#x5176;&#x5B83;&#x91C7;&#x6837;&#x65F6;&#x95F4;&#x6BB5;&#x5185;&#x7684;&#x6570;&#x636E;
+            ],
+            &quot;displayName&quot;: &quot;Used&quot;,
+            &quot;id&quot;: 2428017316,
+            &quot;name&quot;: &quot;Memory/Used&quot;,  //&#x7269;&#x7406;&#x5185;&#x5B58;&#x4F7F;&#x7528;&#x7387;
+            &quot;type&quot;: &quot;Memory&quot;
+        }
+    ],
+    &quot;timeSpan&quot;: {
+        &quot;endTime&quot;: 1465203480000,
+        &quot;startTime&quot;: 1465181880000
+    }
+}
+</code></pre><h2 id="2-&#x62A5;&#x8868;api">2. &#x62A5;&#x8868;API</h2>
+<h3 id="21-web&#x4E8B;&#x52A1;&#x62A5;&#x8868;api">2.1 Web&#x4E8B;&#x52A1;&#x62A5;&#x8868;API</h3>
+<ul>
+<li>url</li>
+</ul>
+<p><code>/ai/applications/{applicationId}/reports/transaction.json</code></p>
+<ul>
+<li>Request Method:</li>
+</ul>
+<p><code>POST</code></p>
+<ul>
+<li>Content-Type:</li>
+</ul>
+<p><code>application/x-www-form-urlencoded</code></p>
+<ul>
+<li>&#x53C2;&#x6570;&#xFF1A;</li>
+</ul>
+<p>yesterday:yesterday
+sameDayWeek:sameDayWeek
+sevenDay:sevenDay
+orderBy:throughput(default)|averageTime|totalTime</p>
+<p><strong>&#x4F8B;&#x5B50;</strong></p>
+<ul>
+<li>Request URL:
+<code>https://api.oneapm.com/ai/applications/2279554/reports/transaction.json?api-key=api-key&#x5185;&#x5BB9;</code></li>
+<li>Posted Form Data&#xFF1A;
+<code>yesterday=yesterday&amp;sameDayWeek=sameDayWeek&amp;sevenDay=sevenDay&amp;orderBy=averageTime</code></li>
+<li>&#x7ED3;&#x679C;&#xFF1A;</li>
+</ul>
+<pre><code>[
+    {
+        &quot;metricId&quot;: 2428022546,
+        &quot;metricName&quot;: &quot;EJB/Entity/flightSegment/getFlightName&quot;,
+        &quot;values&quot;: {  // &#x7ED3;&#x679C;&#x96C6;
+            &quot;yesterday&quot;: {  // &#x6628;&#x5929;&#x7684;&#x6570;&#x636E;
+                &quot;apdexScore&quot;: 1,  // &#x6027;&#x80FD;&#x6307;&#x6570;apdex
+                &quot;averageTime&quot;: 0.00393173165604137,  // &#x5E73;&#x5747;&#x54CD;&#x5E94;&#x65F6;&#x95F4;
+                &quot;cpm&quot;: 26.827083333333334,  // &#x541E;&#x5410;&#x91CF;
+                &quot;dissate&quot;: 0,  // &#x4E0D;&#x6EE1;&#x610F;&#x6B21;&#x6570;
+                &quot;endTime&quot;: 1465228799000,
+                &quot;errorRate&quot;: 0,  // &#x9519;&#x8BEF;&#x7387;
+                &quot;metricId&quot;: 2428022546,
+                &quot;startTime&quot;: 1465142399000
+            },
+            &quot;sameDayWeek&quot;: {  // &#x4E0A;&#x5468;&#x540C;&#x4E00;&#x5929;&#x7684;&#x6570;&#x636E;
+                &quot;apdexScore&quot;: 0,
+                &quot;averageTime&quot;: 0,
+                &quot;cpm&quot;: 0,
+                &quot;dissate&quot;: 0,
+                &quot;endTime&quot;: 1464710399000,
+                &quot;errorRate&quot;: 0,
+                &quot;metricId&quot;: 2428022546,
+                &quot;startTime&quot;: 1464623999000
+            },
+            &quot;sevenDay&quot;: {  // 7&#x5929;&#x5185;&#x7684;&#x6570;&#x636E;
+                &quot;apdexScore&quot;: 1,
+                &quot;averageTime&quot;: 0.004003353749600751,
+                &quot;cpm&quot;: 24.85952380952381,
+                &quot;dissate&quot;: 0,
+                &quot;endTime&quot;: 1465315199000,
+                &quot;errorRate&quot;: 0,
+                &quot;metricId&quot;: 2428022546,
+                &quot;startTime&quot;: 1464710399000
+            },
+            &quot;today&quot;: {  // &#x4ECA;&#x5929;&#x7684;&#x6570;&#x636E;
+                &quot;apdexScore&quot;: 1,
+                &quot;averageTime&quot;: 0.0039242472308862126,
+                &quot;cpm&quot;: 13.10138888888889,
+                &quot;dissate&quot;: 0,
+                &quot;endTime&quot;: 1465315199000,
+                &quot;errorRate&quot;: 0,
+                &quot;metricId&quot;: 2428022546,
+                &quot;startTime&quot;: 1465228799000
+            }
+        }
+    }
+]
+</code></pre><h3 id="22-&#x6570;&#x636E;&#x5E93;&#x62A5;&#x8868;api">2.2 &#x6570;&#x636E;&#x5E93;&#x62A5;&#x8868;API</h3>
+<ul>
+<li>url</li>
+</ul>
+<p><code>/ai/applications/{applicationId}/reports/database.json</code></p>
+<ul>
+<li>Request Method:</li>
+</ul>
+<p><code>POST</code></p>
+<ul>
+<li>Content-Type:</li>
+</ul>
+<p><code>application/x-www-form-urlencoded</code></p>
+<ul>
+<li>&#x53C2;&#x6570;&#xFF1A;</li>
+</ul>
+<p>yesterday:yesterday
+sameDayWeek:sameDayWeek
+sevenDay:sevenDay
+orderBy:throughput(default)|averageTime|totalTime</p>
+<p><strong>&#x4F8B;&#x5B50;</strong></p>
+<ul>
+<li>Request URL:
+<code>https://api.oneapm.com/ai/applications/2279554/reports/database.json?api-key=api-key&#x5185;&#x5BB9;</code></li>
+<li>Posted Form Data&#xFF1A;
+<code>yesterday=yesterday&amp;sameDayWeek=sameDayWeek&amp;sevenDay=sevenDay&amp;orderBy=averageTime</code></li>
+<li>&#x7ED3;&#x679C;&#xFF1A;</li>
+</ul>
+<pre><code>[
+    {
+        &quot;metricId&quot;: 2431115505,
+        &quot;metricName&quot;: &quot;Database customer-update&quot;,
+        &quot;values&quot;: {  // &#x7ED3;&#x679C;&#x96C6;
+            &quot;yesterday&quot;: {  // &#x6628;&#x5929;&#x7684;&#x6570;&#x636E;
+                &quot;averageTime&quot;: 0.0005623816693930418,  // &#x5E73;&#x5747;&#x54CD;&#x5E94;&#x65F6;&#x95F4;
+                &quot;cpm&quot;: 1.3409722222222222,  // &#x541E;&#x5410;&#x91CF;
+                &quot;endTime&quot;: 1465228799000,
+                &quot;metricId&quot;: 2431115505,
+                &quot;startTime&quot;: 1465142399000,
+                &quot;totalTime&quot;: 1.0859590035979636  // &#x603B;&#x65F6;&#x95F4;
+            },
+            &quot;sameDayWeek&quot;: {  // &#x4E0A;&#x5468;&#x540C;&#x4E00;&#x5929;&#x7684;&#x6570;&#x636E;
+                &quot;averageTime&quot;: 0,
+                &quot;cpm&quot;: 0,
+                &quot;endTime&quot;: 1464710399000,
+                &quot;metricId&quot;: 2431115505,
+                &quot;startTime&quot;: 1464623999000,
+                &quot;totalTime&quot;: 0
+            },
+            &quot;sevenDay&quot;: {  // 7&#x5929;&#x5185;&#x7684;&#x6570;&#x636E;
+                &quot;averageTime&quot;: 0.0005590523701868545,
+                &quot;cpm&quot;: 1.2370039682539682,
+                &quot;endTime&quot;: 1465315199000,
+                &quot;metricId&quot;: 2431115505,
+                &quot;startTime&quot;: 1464710399000,
+                &quot;totalTime&quot;: 6.970824003859889
+            },
+            &quot;today&quot;: {  // &#x4ECA;&#x5929;&#x7684;&#x6570;&#x636E;
+                &quot;averageTime&quot;: 0.0005545028321084272,
+                &quot;cpm&quot;: 0.6131944444444445,
+                &quot;endTime&quot;: 1465315199000,
+                &quot;metricId&quot;: 2431115505,
+                &quot;startTime&quot;: 1465228799000,
+                &quot;totalTime&quot;: 0.48962600075174123
+            }
+        }
+    }
+]
+</code></pre><h3 id="23-jvm&#x62A5;&#x8868;api">2.3 JVM&#x62A5;&#x8868;API</h3>
+<ul>
+<li>url</li>
+</ul>
+<p><code>/ai/applications/{applicationId}/reports/jvm.json</code></p>
+<ul>
+<li>Request Method:</li>
+</ul>
+<p><code>POST</code></p>
+<ul>
+<li>Content-Type:</li>
+</ul>
+<p><code>application/x-www-form-urlencoded</code></p>
+<ul>
+<li>&#x53C2;&#x6570;&#xFF1A;</li>
+</ul>
+<p>yesterday:yesterday
+sameDayWeek:sameDayWeek
+sevenDay:sevenDay
+orderBy:throughput(default)|averageTime|totalTime</p>
+<p><strong>&#x4F8B;&#x5B50;</strong></p>
+<ul>
+<li>Request URL:
+<code>https://api.oneapm.com/ai/applications/2279554/reports/jvm.json?api-key=api-key&#x5185;&#x5BB9;</code></li>
+<li>Posted Form Data&#xFF1A;
+<code>yesterday=yesterday&amp;sameDayWeek=sameDayWeek&amp;sevenDay=sevenDay&amp;orderBy=averageTime</code></li>
+<li>&#x7ED3;&#x679C;&#xFF1A;</li>
+</ul>
+<pre><code>[
+    {
+        &quot;metricId&quot;: 63656,
+        &quot;metricName&quot;: &quot;java:Acmeair-webapp:80(webapp1.webapp-mysql.local.flyacmeair.net)&quot;,
+        &quot;values&quot;: {  // &#x7ED3;&#x679C;&#x96C6;
+            &quot;yesterday&quot;: {  // &#x6628;&#x5929;&#x7684;&#x6570;&#x636E;
+                &quot;apdexScore&quot;: 1,    // &#x6027;&#x80FD;&#x6307;&#x6570;apdex
+                &quot;averageTime&quot;: 0.008966938131547643,  // &#x5E73;&#x5747;&#x54CD;&#x5E94;&#x65F6;&#x95F4;
+                &quot;cpm&quot;: 45.60486111111111,  // &#x541E;&#x5410;&#x91CF;
+                &quot;cpu&quot;: 0.0009731166840841373,  // CPU
+                &quot;endTime&quot;: 0,
+                &quot;errorRate&quot;: 0,  // &#x9519;&#x8BEF;&#x7387;
+                &quot;mem&quot;: 151.26934360169,  // &#x5185;&#x5B58;
+                &quot;metricId&quot;: 63656,
+                &quot;startTime&quot;: 0
+            },
+            &quot;sameDayWeek&quot;: {  // &#x4E0A;&#x5468;&#x540C;&#x4E00;&#x5929;&#x7684;&#x6570;&#x636E;
+                &quot;apdexScore&quot;: 0,
+                &quot;averageTime&quot;: 0,
+                &quot;cpm&quot;: 0,
+                &quot;cpu&quot;: 0,
+                &quot;endTime&quot;: 0,
+                &quot;errorRate&quot;: 0,
+                &quot;mem&quot;: 0,
+                &quot;metricId&quot;: 63656,
+                &quot;startTime&quot;: 0
+            },
+            &quot;sevenDay&quot;: {  // 7&#x5929;&#x5185;&#x7684;&#x6570;&#x636E;
+                &quot;apdexScore&quot;: 0.9999881762029531,
+                &quot;averageTime&quot;: 0.008963754300236446,
+                &quot;cpm&quot;: 41.95198412698413,
+                &quot;cpu&quot;: 0.0009589939554731904,
+                &quot;endTime&quot;: 0,
+                &quot;errorRate&quot;: 0,
+                &quot;mem&quot;: 151.37865918322768,
+                &quot;metricId&quot;: 63656,
+                &quot;startTime&quot;: 0
+            },
+            &quot;today&quot;: {  // &#x4ECA;&#x5929;&#x7684;&#x6570;&#x636E;
+                &quot;apdexScore&quot;: 0.9999654624576915,
+                &quot;averageTime&quot;: 0.008888333461524588,
+                &quot;cpm&quot;: 20.106944444444444,
+                &quot;cpu&quot;: 0.0007365501562195708,
+                &quot;endTime&quot;: 0,
+                &quot;errorRate&quot;: 0,
+                &quot;mem&quot;: 153.44450277036665,
+                &quot;metricId&quot;: 63656,
+                &quot;startTime&quot;: 0
+            }
+        }
+    }
+]
+</code></pre>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="description.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: API说明文档">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"API接口文档","level":"1.10.2","depth":2,"next":{"title":"版本日志","level":"1.11","depth":1,"url":"http://support.oneapm.com/forum/category/9253/","ref":"http://support.oneapm.com/forum/category/9253/","articles":[]},"previous":{"title":"API说明文档","level":"1.10.1","depth":2,"path":"api/description.md","ref":"api/description.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"api/data.md","mtime":"2016-06-16T01:57:58.000Z","type":"markdown"},"gitbook":{"version":"3.0.3","time":"2016-07-05T08:52:15.681Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/buttons.js"></script>
+        
+    
+
+    </body>
+</html>
+
