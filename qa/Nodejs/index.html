@@ -1,0 +1,1899 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <title>Node.js · GitBook</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.0.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="Nodejsqa.html" />
+    
+    
+    <link rel="prev" href="../Python/pingAndTelPython.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../getStart/">
+            
+                <a href="../../getStart/">
+            
+                    
+                    快速入门
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../../getStart/installAgent.html">
+            
+                <a href="../../getStart/installAgent.html">
+            
+                    
+                    如何安装 Agent
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../../getStart/updateAgent.html">
+            
+                <a href="../../getStart/updateAgent.html">
+            
+                    
+                    如何更新 Agent
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../../getStart/uninstallAgent.html">
+            
+                <a href="../../getStart/uninstallAgent.html">
+            
+                    
+                    如何卸载 Agent
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../../term/readme.html">
+            
+                <a href="../../term/readme.html">
+            
+                    
+                    术语解释
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../../term/common.html">
+            
+                <a href="../../term/common.html">
+            
+                    
+                    常用术语
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../../term/dr.html">
+            
+                <a href="../../term/dr.html">
+            
+                    
+                    Data Retention
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../../book/startUse.html">
+            
+                <a href="../../book/startUse.html">
+            
+                    
+                    开始使用
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../../book/monitor/Read.html">
+            
+                <a href="../../book/monitor/Read.html">
+            
+                    
+                    监控
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1.1" data-path="../../book/monitor/monitor_overview.html">
+            
+                <a href="../../book/monitor/monitor_overview.html">
+            
+                    
+                    监控-总览
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.2" data-path="../../book/monitor/monitor_map.html">
+            
+                <a href="../../book/monitor/monitor_map.html">
+            
+                    
+                    监控-拓扑
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.3" data-path="../../book/monitor/monitor_webTransaction.html">
+            
+                <a href="../../book/monitor/monitor_webTransaction.html">
+            
+                    
+                    监控-web事务
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.4" data-path="../../book/monitor/monitor_dataBase.html">
+            
+                <a href="../../book/monitor/monitor_dataBase.html">
+            
+                    
+                    监控-数据库
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.5" data-path="../../book/monitor/monitor_external.html">
+            
+                <a href="../../book/monitor/monitor_external.html">
+            
+                    
+                    监控-外部服务
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.6" data-path="../../book/monitor/monitor_bgTask.html">
+            
+                <a href="../../book/monitor/monitor_bgTask.html">
+            
+                    
+                    监控-后台任务
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.7" data-path="../../book/monitor/monitor_jvm.html">
+            
+                <a href="../../book/monitor/monitor_jvm.html">
+            
+                    
+                    监控-JVM
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1.7.1" data-path="../../book/monitor/monitor_jvm_info.html">
+            
+                <a href="../../book/monitor/monitor_jvm_info.html">
+            
+                    
+                    JVM监控详细
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../../book/event/Read.html">
+            
+                <a href="../../book/event/Read.html">
+            
+                    
+                    事件
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.2.1" data-path="../../book/event/event_errorInfo.html">
+            
+                <a href="../../book/event/event_errorInfo.html">
+            
+                    
+                    事件-错误信息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.2" data-path="../../book/event/event_performanceProfiling.html">
+            
+                <a href="../../book/event/event_performanceProfiling.html">
+            
+                    
+                    事件-性能剖析
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../../book/report/Read.html">
+            
+                <a href="../../book/report/Read.html">
+            
+                    
+                    报表
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.3.1" data-path="../../book/report/report_webTransaction.html">
+            
+                <a href="../../book/report/report_webTransaction.html">
+            
+                    
+                    报表-web事务
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.2" data-path="../../book/report/report_dataBase.html">
+            
+                <a href="../../book/report/report_dataBase.html">
+            
+                    
+                    报表-数据库
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.3" data-path="../../book/report/report_jvm.html">
+            
+                <a href="../../book/report/report_jvm.html">
+            
+                    
+                    报表-JVM
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../../book/setting/Read.html">
+            
+                <a href="../../book/setting/Read.html">
+            
+                    
+                    设置
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.4.1" data-path="../../book/setting/setting_serverEnvironment.html">
+            
+                <a href="../../book/setting/setting_serverEnvironment.html">
+            
+                    
+                    设置-服务器环境
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4.2" data-path="../../book/setting/setting_applicationSet.html">
+            
+                <a href="../../book/setting/setting_applicationSet.html">
+            
+                    
+                    设置－应用设置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4.3" data-path="../../book/setting/setting_customTransaction.html">
+            
+                <a href="../../book/setting/setting_customTransaction.html">
+            
+                    
+                    设置－自定义事务
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../../book/keyTransaction/Read.html">
+            
+                <a href="../../book/keyTransaction/Read.html">
+            
+                    
+                    关键事务
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.5.1" data-path="../../book/keyTransaction/keyTransaction_overview.html">
+            
+                <a href="../../book/keyTransaction/keyTransaction_overview.html">
+            
+                    
+                    关键事务－总览
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5.2" data-path="../../book/keyTransaction/keyTransaction_map.html">
+            
+                <a href="../../book/keyTransaction/keyTransaction_map.html">
+            
+                    
+                    关键事务－拓扑
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5.3" data-path="../../book/keyTransaction/keyTransaction_performanceprofiling.html">
+            
+                <a href="../../book/keyTransaction/keyTransaction_performanceprofiling.html">
+            
+                    
+                    关键事务－性能剖析
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../../systemSet/Read.html">
+            
+                <a href="../../systemSet/Read.html">
+            
+                    
+                    系统设置
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../../systemSet/account/Read.html">
+            
+                <a href="../../systemSet/account/Read.html">
+            
+                    
+                    账号管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../../systemSet/alarmPolicy/Read.html">
+            
+                <a href="../../systemSet/alarmPolicy/Read.html">
+            
+                    
+                    报警策略
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.2.1" data-path="../../systemSet/alarmPolicy/alarmPolicy_application.html">
+            
+                <a href="../../systemSet/alarmPolicy/alarmPolicy_application.html">
+            
+                    
+                    报警策略－应用程序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.2" data-path="../../systemSet/alarmPolicy/alarmPolicy_KeyTransaction.html">
+            
+                <a href="../../systemSet/alarmPolicy/alarmPolicy_KeyTransaction.html">
+            
+                    
+                    报警策略-关键事务
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../../systemSet/alarmRecording/Read.html">
+            
+                <a href="../../systemSet/alarmRecording/Read.html">
+            
+                    
+                    报警记录
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../../install/">
+            
+                <a href="../../install/">
+            
+                    
+                    Agent安装
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../../install/java/">
+            
+                <a href="../../install/java/">
+            
+                    
+                    Java
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1.1" data-path="../../install/java/auto.html">
+            
+                <a href="../../install/java/auto.html">
+            
+                    
+                    Java Agent 自动安装方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.2" data-path="../../install/java/manual.html">
+            
+                <a href="../../install/java/manual.html">
+            
+                    
+                    Java Agent 手动安装方法
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1.2.1" data-path="../../install/java/manual/AWS.html">
+            
+                <a href="../../install/java/manual/AWS.html">
+            
+                    
+                    AWS Wlastic Beanstalk 安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.2.2" data-path="../../install/java/manual/coldFusionInstall.html">
+            
+                <a href="../../install/java/manual/coldFusionInstall.html">
+            
+                    
+                    ColdFusion 安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.2.3" data-path="../../install/java/manual/glassfishInstall.html">
+            
+                <a href="../../install/java/manual/glassfishInstall.html">
+            
+                    
+                    Glassfish 安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.2.4" data-path="../../install/java/manual/jbossInstall.html">
+            
+                <a href="../../install/java/manual/jbossInstall.html">
+            
+                    
+                    JBoos 安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.2.5" data-path="../../install/java/manual/jettyInstall.html">
+            
+                <a href="../../install/java/manual/jettyInstall.html">
+            
+                    
+                    Jetty 安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.2.6" data-path="../../install/java/manual/jsvcInstall.html">
+            
+                <a href="../../install/java/manual/jsvcInstall.html">
+            
+                    
+                    Jsvc 安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.2.7" data-path="../../install/java/manual/playInstall.html">
+            
+                <a href="../../install/java/manual/playInstall.html">
+            
+                    
+                    Play 安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.2.8" data-path="../../install/java/manual/ResinInstall.html">
+            
+                <a href="../../install/java/manual/ResinInstall.html">
+            
+                    
+                    Resin 安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.2.9" data-path="../../install/java/manual/tomcatInstall.html">
+            
+                <a href="../../install/java/manual/tomcatInstall.html">
+            
+                    
+                    Tomcat 安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.2.10" data-path="../../install/java/manual/weblogicInstall.html">
+            
+                <a href="../../install/java/manual/weblogicInstall.html">
+            
+                    
+                    WebLogic 安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.2.11" data-path="../../install/java/manual/websphereInstall.html">
+            
+                <a href="../../install/java/manual/websphereInstall.html">
+            
+                    
+                    WebSphere 安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.2.12" data-path="../../install/java/javaUpdate.html">
+            
+                <a href="../../install/java/javaUpdate.html">
+            
+                    
+                    Java Agent 更新方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../../install/php/">
+            
+                <a href="../../install/php/">
+            
+                    
+                    PHP
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.2.1" data-path="../../install/php/phpinstall.html">
+            
+                <a href="../../install/php/phpinstall.html">
+            
+                    
+                    php agent 安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.2" data-path="../../install/php/phpupdate.html">
+            
+                <a href="../../install/php/phpupdate.html">
+            
+                    
+                    php agent 更新
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.3" data-path="../../install/php/stopstart.html">
+            
+                <a href="../../install/php/stopstart.html">
+            
+                    
+                    php agent 暂停开启
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.4" data-path="../../install/php/uninstall.html">
+            
+                <a href="../../install/php/uninstall.html">
+            
+                    
+                    php agent 卸载
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../../install/net/">
+            
+                <a href="../../install/net/">
+            
+                    
+                    .NET
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.3.1" data-path="../../install/net/netinstall.html">
+            
+                <a href="../../install/net/netinstall.html">
+            
+                    
+                    .NET agent 安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3.2" data-path="../../install/net/netupdate.html">
+            
+                <a href="../../install/net/netupdate.html">
+            
+                    
+                    .NET agent 更新
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../../install/Python/">
+            
+                <a href="../../install/Python/">
+            
+                    
+                    Python Agent 安装
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.4.1" data-path="../../install/Python/Pythoninstall.html">
+            
+                <a href="../../install/Python/Pythoninstall.html">
+            
+                    
+                    Python agent 安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4.2" data-path="../../install/Python/PythonAgentupdate.html">
+            
+                <a href="../../install/Python/PythonAgentupdate.html">
+            
+                    
+                    Python agent 更新
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="../../install/Nodejs/">
+            
+                <a href="../../install/Nodejs/">
+            
+                    
+                    Node.js Agent 安装
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.5.1" data-path="../../install/Nodejs/prNodejsinstall.html">
+            
+                <a href="../../install/Nodejs/prNodejsinstall.html">
+            
+                    
+                    Node.js agent 安装准备
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5.2" data-path="../../install/Nodejs/Nodejsinstall.html">
+            
+                <a href="../../install/Nodejs/Nodejsinstall.html">
+            
+                    
+                    Node.js agent 安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5.3" data-path="../../install/Nodejs/Nodejsupdate.html">
+            
+                <a href="../../install/Nodejs/Nodejsupdate.html">
+            
+                    
+                    Node.js agent 更新
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6" data-path="../../install/Ruby/">
+            
+                <a href="../../install/Ruby/">
+            
+                    
+                    Ruby Agent 安装
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.6.1" data-path="../../install/Ruby/Rubyinstall.html">
+            
+                <a href="../../install/Ruby/Rubyinstall.html">
+            
+                    
+                    Ruby agent 安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6.2" data-path="../../install/Ruby/Rubyupdate.html">
+            
+                <a href="../../install/Ruby/Rubyupdate.html">
+            
+                    
+                    Ruby agent 更新
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6.3" data-path="../../install/Ruby/DockerRuby.html">
+            
+                <a href="../../install/Ruby/DockerRuby.html">
+            
+                    
+                    OSX 环境下部署 Docker 安装 Ruby 探针
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../../support/">
+            
+                <a href="../../support/">
+            
+                    
+                    兼容环境支持
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../../support/javaSupport_help.html">
+            
+                <a href="../../support/javaSupport_help.html">
+            
+                    
+                    Java
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../../support/phpSupport_help.html">
+            
+                <a href="../../support/phpSupport_help.html">
+            
+                    
+                    PHP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../../support/netSupport_help.html">
+            
+                <a href="../../support/netSupport_help.html">
+            
+                    
+                    .NET
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="../../support/PythonSupport_help.html">
+            
+                <a href="../../support/PythonSupport_help.html">
+            
+                    
+                    Python
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.5" data-path="../../support/NodejsSupport_help.html">
+            
+                <a href="../../support/NodejsSupport_help.html">
+            
+                    
+                    Node.js
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.6" data-path="../../support/RubySupport_help.html">
+            
+                <a href="../../support/RubySupport_help.html">
+            
+                    
+                    Ruby
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../../configOptions/">
+            
+                <a href="../../configOptions/">
+            
+                    
+                    配置选项
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../../configOptions/config_help.html">
+            
+                <a href="../../configOptions/config_help.html">
+            
+                    
+                    Java Agent 参数配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../../configOptions/phpconfig_help.html">
+            
+                <a href="../../configOptions/phpconfig_help.html">
+            
+                    
+                    PHP Agent 参数配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="../../configOptions/netconfig_help.html">
+            
+                <a href="../../configOptions/netconfig_help.html">
+            
+                    
+                    .NET Agent 参数配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.4" data-path="../../configOptions/Pythonconfig_help.html">
+            
+                <a href="../../configOptions/Pythonconfig_help.html">
+            
+                    
+                    Python 参数配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.5" data-path="../../configOptions/Nodejsconfig_help.html">
+            
+                <a href="../../configOptions/Nodejsconfig_help.html">
+            
+                    
+                    Node.js 参数配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.6" data-path="../../configOptions/Rubyconfig_help.html">
+            
+                <a href="../../configOptions/Rubyconfig_help.html">
+            
+                    
+                    Ruby 参数配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    常见问题
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../java/">
+            
+                <a href="../java/">
+            
+                    
+                    Java
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1.1" data-path="../java/question_help.html">
+            
+                <a href="../java/question_help.html">
+            
+                    
+                    常见部署问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.1.2" data-path="../java/inner-mesh_help.html">
+            
+                <a href="../java/inner-mesh_help.html">
+            
+                    
+                    内网如何部署 OneAPM
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.1.3" data-path="../java/extensions_help.html">
+            
+                <a href="../java/extensions_help.html">
+            
+                    
+                    OneAPM 拓展功能使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="../php/">
+            
+                <a href="../php/">
+            
+                    
+                    PHP
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.2.1" data-path="../php/ali.html">
+            
+                <a href="../php/ali.html">
+            
+                    
+                    阿里云常见问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2.2" data-path="../php/noapp.html">
+            
+                <a href="../php/noapp.html">
+            
+                    
+                    安装成功无数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2.3" data-path="../php/qa.html">
+            
+                <a href="../php/qa.html">
+            
+                    
+                    常见问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2.4" data-path="../php/turnbug.html">
+            
+                <a href="../php/turnbug.html">
+            
+                    
+                    开启 debug
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2.5" data-path="../php/chname.html">
+            
+                <a href="../php/chname.html">
+            
+                    
+                    重命名 PHP 应用程序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2.6" data-path="../php/amh.html">
+            
+                <a href="../php/amh.html">
+            
+                    
+                    AMH云主机使用OneAPM PHP Agent 方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3" data-path="../net/">
+            
+                <a href="../net/">
+            
+                    
+                    .NET
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.3.1" data-path="../net/pingAndTelnet.html">
+            
+                <a href="../net/pingAndTelnet.html">
+            
+                    
+                    .NET Agent 安装成功，没有数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3.2" data-path="../net/Investigation.html">
+            
+                <a href="../net/Investigation.html">
+            
+                    
+                    .NET Agent 常见故障排查方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3.3" data-path="../net/customMonitor.html">
+            
+                <a href="../net/customMonitor.html">
+            
+                    
+                    业务代码，自定义监控使用说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3.4" data-path="../net/collectmessage.html">
+            
+                <a href="../net/collectmessage.html">
+            
+                    
+                    .NET Agent 收集日志信息方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4" data-path="../Python/">
+            
+                <a href="../Python/">
+            
+                    
+                    Python
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.4.1" data-path="../Python/Pythonlog.html">
+            
+                <a href="../Python/Pythonlog.html">
+            
+                    
+                    Python Agent 日志录入和故障排查
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4.2" data-path="../Python/pingAndTelPython.html">
+            
+                <a href="../Python/pingAndTelPython.html">
+            
+                    
+                    Python Agent 安装成功，没有数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.9.5" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Node.js
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.5.1" data-path="Nodejsqa.html">
+            
+                <a href="Nodejsqa.html">
+            
+                    
+                    Node.js Agent 常见问题及解决办法
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.6" data-path="../[Ruby/README.md">
+            
+                <a href="../[Ruby/README.md">
+            
+                    
+                    Ruby
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.6.1" data-path="../Ruby/Rubyqa.html">
+            
+                <a href="../Ruby/Rubyqa.html">
+            
+                    
+                    Ruby Agent 常见问题及解决办法
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../../api/Readme.html">
+            
+                <a href="../../api/Readme.html">
+            
+                    
+                    帮助中心
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="../../api/description.html">
+            
+                <a href="../../api/description.html">
+            
+                    
+                    API说明文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2" data-path="../../api/data.html">
+            
+                <a href="../../api/data.html">
+            
+                    
+                    API接口文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" >
+            
+                <a target="_blank" href="http://support.oneapm.com/forum/category/9253/">
+            
+                    
+                    版本日志
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >Node.js</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="nodejs">Node.js</h1>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../Python/pingAndTelPython.html" class="navigation navigation-prev " aria-label="Previous page: Python Agent 安装成功，没有数据">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="Nodejsqa.html" class="navigation navigation-next " aria-label="Next page: Node.js Agent 常见问题及解决办法">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Node.js","level":"1.9.5","depth":2,"next":{"title":"Node.js Agent 常见问题及解决办法","level":"1.9.5.1","depth":3,"path":"qa/Nodejs/Nodejsqa.md","ref":"qa/Nodejs/Nodejsqa.md","articles":[]},"previous":{"title":"Python Agent 安装成功，没有数据","level":"1.9.4.2","depth":3,"path":"qa/Python/pingAndTelPython.md","ref":"qa/Python/pingAndTelPython.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"qa/Nodejs/README.md","mtime":"2016-07-29T02:17:42.000Z","type":"markdown"},"gitbook":{"version":"3.0.3","time":"2016-07-29T03:53:10.557Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/buttons.js"></script>
+        
+    
+
+    </body>
+</html>
+
